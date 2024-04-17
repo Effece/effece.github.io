@@ -1,0 +1,31 @@
+#listTable {
+	border-collapse: collapse;
+	width: auto;
+}
+
+.situation {
+	width: auto;
+}
+
+#listTable > thead {
+	border: 5px solid;
+	border-color: orange;
+	color: yellow;
+	line-height: 200%;
+}
+
+#sepTable {
+	opacity: 0;
+	line-height: 10px;
+	border: none !important;
+}
+
+#list > tr {
+	border: 5px solid;
+	border-color: yellow;
+}
+
+#list > tr > td {
+	border: 1px solid;
+	border-color: yellow;
+}
