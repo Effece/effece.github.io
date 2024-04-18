@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>PLL - Rubik's Cube</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "style.css">
+		<link rel = "stylesheet" href = "columns.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "table.css">
+		<link rel = "stylesheet" href = "face.css">
+	</head>
+	<body>
+		<header></header>
+		<div class = "page">
+			<div class = "col links trimmed" id = "links" onclick = "linkColumnClick(this);">
+				<h2><span>General</span></h2>
+				<a href = "index.html">Main page</a>
+				<a href = "times.html">Times</a>
+				<a href = "algs.html">Algorithms</a>
+				<a href = "collection.html">Collection</a>
+				<h2><span>Submit</span></h2>
+				<a href = "single.html">3x3 single</a>
+				<a href = "session.html">3x3 session</a>
+				<h2><span>Performances</span></h2>
+				<a href = "best.html">Best times</a>
+				<a href = "times.html">All times</a>
+				<a href = "practice.html">Practice</a>
+				<h2><span>Algorithms</span></h2>
+				<a href = "algs.html">All algorithms</a>
+				<a href = "cfop.html">CFOP</a>
+				<a href = "oll.html">OLL</a>
+				<a href = "pll.html">PLL</a>
+				<a href = "addalg.html">Add an algorithm</a>
+				<a href = "modifyalg.html">Modify an algorithm</a>
+				<h2><span>Other</span></h2>
+				<a href = "evals.html">Evaluations</a>
+				<a href = "upcoming.html">Upcoming features</a>
+				<h2><span>External links</span></h2>
+				<a class = "external" href = "https://www.worldcubeassociation.org/">World Association</a>
+				<a href = "https://speedcubedb.com/">Database</a>
+				<a class = "external" href = "https://speedcubing.com/CubingAlgs.html">Speed Cubing</a>
+				<a class = "external" href = "https://jperm.net/">J Perm</a>
+				<a class = "external" href = "https://drive.google.com/file/d/1nzAXYUWZJ6H2wIOXaHdWXep3W57tArbR/view">F2L sheet</a>
+				<a class = "external" href = "https://speedcubeshop.com/">Speed Cube Shop</a>
+				<a class = "external" href = "https://www.thecubicle.com/">The Cubicle</a>
+				<a class = "external" href = "https://www.gancube.com/">GAN</a>
+				<a class = "external" href = "http://moyucube.com/en/">Moyu</a>
+				<a class = "external" href = "https://www.variantes.com/19-cubes-magiques-boutique">Variantes</a>
+				<a class = "external" href = "https://docs.google.com/spreadsheets/d/1gNYFoNbJ4uLN5BVQnC_RJE8jsIAGRgoayCs05naaJlI/edit?usp=sharing">Personal sheet</a>
+			</div>
+			<div class = "col overall untrimmed" id = "overall">
+				<h1>Algorithms - PLL</h1>
+				<p>Those are the PLL algorithms exclusively, last part of the <a class = "insideLink" href = "cfop.html">CFOP method</a>. PLL stands for 'Permutation of the Last Layer'. It is a step where you swap the top pieces to finish the last face. Previous step is <a class = "insideLink" href = "oll.html">OLL</a>. Click <a class = "insideLink" href = "addalg.html">here</a> to add one. Click <a class = "insideLink" href = "modifyalg.html">here</a> to modify one. Go back to the <a class = "insideLink" href = "algs.html">overall algorithm page</a>.</p>
+				<img class = "marker" src = "marker.png" />
+				<table id = "listTable">
+					<thead><tr>
+						<th>Situation</th>
+						<th>Name</th>
+						<th>Algorithm</th>
+						<th>More...</th>
+					</tr></thead>
+					<tr id = "sepTable"><td>separation</td></tr>
+					<tbody id = "list"></tbody>
+				</table>
+			</div>
+		</div>
+		<script src = "links.js"></script>
+		<script src = "algorithms.json"></script>
+		<script>
+			for (const alg of Object.keys(algs))
+				if (algs[alg]["categories"][1] !== "PLL")
+					delete algs[alg];
+		</script>	
+		<script src = "algFunctions.js"></script>
+		<script src = "fillAlgorithms.js"></script>
+	</body>
+</html>

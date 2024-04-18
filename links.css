@@ -1,0 +1,44 @@
+.links > h2 {
+	width: 100%;
+	text-align: left;
+	color: red;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF474C;
+	border-radius: 1px;
+	line-height: 0.1em;
+	margin: 10px 0 10px;
+	font-size: 16px;
+}
+
+.links > h2 > span {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-right: 10px;
+ 	padding-left: 10px;
+ 	background-color: yellow;
+}
+
+.links > a {
+	display: block;
+	text-decoration: none;
+	padding-left: 5px;
+	color: #FF8C00;
+}
+
+.links > a:hover {
+	background-color: #FFC000;
+	color: black;
+	border-radius: 5px;
+}
+
+.insideLink {
+	text-decoration: none;
+	color: inherit;
+	-webkit-filter: invert(50%);
+}
+
+.insideLink:hover {
+	color: black;
+	-webkit-filter: invert(0);
+}
