@@ -1,0 +1,41 @@
+var sesTimes = [
+    {
+        "number": 5,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/iyEAQ8nXAvI",
+        "times": [
+            31.96,
+            40.77,
+            32.62,
+            34.2,
+            26.77
+        ],
+        "scrambles": [
+            "F' L' R B U2 B2 F' D2 F' B R2 D2 R2 U2 R2 U2 L R U' B R D U R' U2",
+            "B2 U' L' D2 F' R' F L' F' B D R L B' R' L2 B2 D R2 F' U' F2 U' F' D2",
+            "F2 R L' D U2 L B R2 F2 R' L B' D2 B' R' U2 B U' B F L2 D' F2 R' L'",
+            "L' B L' R2 B' L2 D' B2 L2 U2 F2 D' L2 D2 U F2 L2 B2 L R' U R' L2 B2 F",
+            "U D R B' F' L2 F L2 U F' R' B R' B2 D' F' B R2 U2 D' R' D2 U R2 D"
+        ],
+        "methods": [
+            "CFOP",
+            "CFOP",
+            "CFOP",
+            "CFOP",
+            "CFOP"
+        ],
+        "firstFaces": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white"
+        ],
+        "notes": [
+            "Messed up the second scramble (slightly false).",
+            "Sheet filler. Every solve felt pretty bad, last one was far ahead though. Need to learn algorithms much more, still mostly used two-looks."
+        ],
+        "avg": 32.93,
+        "nAvg": 33.26
+    }
+]
