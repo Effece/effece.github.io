@@ -1,0 +1,3220 @@
+var algs = {
+    "Aa": {
+        "name": "Aa",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf on bw",
+            "yf bn",
+            "yf on ge",
+            "yf rw",
+            "yf",
+            "yf oe",
+            "yf rw gs",
+            "yf gs",
+            "yf bs re"
+        ],
+        "mainAlgorithm": "x (R' U R') D2 (R U' R') D2 R2 x'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 3,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 2,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            "Always messing up the second R' for a R and bad at the ending.",
+            "Can't recognize Aa and Ab."
+        ]
+    },
+    "Ab": {
+        "name": "Ab",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf gn ow",
+            "yf bn",
+            "yf rn be",
+            "yf rw",
+            "yf",
+            "yf oe",
+            "yf rw gs",
+            "yf gs",
+            "yf os be"
+        ],
+        "mainAlgorithm": "x R2 D2 (R U R') D2 (R U' R) x'",
+        "otherAlgorithms": [],
+        "learnt": 0,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 9,
+        "cycleLength": 3,
+        "mirror": "Aa",
+        "notes": [
+            ""
+        ]
+    },
+    "Corners left": {
+        "name": "Corners left",
+        "alternativeNames": [],
+        "categories": [
+            "Beginner",
+            "Last face",
+            "Easy"
+        ],
+        "situation": [
+            "of yw bn",
+            "yf bn",
+            "rf yn ge",
+            "yf rw",
+            "yf",
+            "yf oe",
+            "bf ys rw",
+            "yf bs",
+            "yf bs oe"
+        ],
+        "mainAlgorithm": "L' U R U' L U R' U'",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 10,
+            "r": 9,
+            "mm": 8,
+            "as": 2,
+            "bf": 9,
+            "sp": 4,
+            "pr": 8,
+            "u": 7,
+            "gh": 1,
+            "hv": 10,
+            "c": 6
+        },
+        "moves": 7,
+        "cycleLength": 3,
+        "mirror": "Corners right",
+        "notes": [
+            ""
+        ]
+    },
+    "Corners right": {
+        "name": "Corners right",
+        "alternativeNames": [],
+        "categories": [
+            "Beginner",
+            "Last face",
+            "Advanced"
+        ],
+        "situation": [
+            "of yn gw",
+            "yf bn",
+            "rf bn ye",
+            "yf rw",
+            "yf",
+            "yf oe",
+            "yf gs rw",
+            "yf gs",
+            "bf ys"
+        ],
+        "mainAlgorithm": "R U' L' U R' U' L U",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 10,
+            "r": 9,
+            "mm": 8,
+            "as": 2,
+            "bf": 9,
+            "sp": 4,
+            "pr": 8,
+            "u": 7,
+            "gh": 1,
+            "hv": 10,
+            "c": 6
+        },
+        "moves": 7,
+        "cycleLength": 3,
+        "mirror": "Corners left",
+        "notes": [
+            "Advanced because it requires pattern recognition."
+        ]
+    },
+    "E": {
+        "name": "E",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Opp Swap"
+        ],
+        "situation": [
+            "yf gn ow",
+            "yf rn",
+            "yf bn oe",
+            "yf gw",
+            "yf",
+            "yf be",
+            "yf rw gs",
+            "yf os",
+            "yf re bs"
+        ],
+        "mainAlgorithm": "x' (R U' R' D) (R U R' D') (R U R' D) (R U' R' D') x",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 16,
+        "cycleLength": 2,
+        "mirror": "E",
+        "notes": [
+            "Four combinaisons of U/U' and D/D'."
+        ]
+    },
+    "F": {
+        "name": "F",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf ow gn",
+            "yf bn",
+            "yf rn be",
+            "yf ow",
+            "yf",
+            "yf re",
+            "yf ow bs",
+            "yf gs",
+            "yf rs ge"
+        ],
+        "mainAlgorithm": "(R' U' F') (R U R' U') R' F R2 (U' R' U') (R U R' U) R",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": 2,
+        "mirror": "F",
+        "notes": [
+            ""
+        ]
+    },
+    "Ga": {
+        "name": "Ga",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf bn rw",
+            "yf gn",
+            "yf on ge",
+            "yf bw",
+            "yf",
+            "yf re",
+            "yf rw gs",
+            "yf os",
+            "yf os be"
+        ],
+        "mainAlgorithm": "R2 (U R' U R' U' R U') R2 D (U' R' U R) D'",
+        "otherAlgorithms": [],
+        "learnt": 0,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 15,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "Gb": {
+        "name": "Gb",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf bn rw",
+            "yf rn",
+            "yf on ge",
+            "yf ow",
+            "yf",
+            "yf ge",
+            "yf rw gs",
+            "yf bs",
+            "yf os be"
+        ],
+        "mainAlgorithm": "(R' U' R U) D' R2 (U R' U R U' R U') R2 D",
+        "otherAlgorithms": [],
+        "learnt": 0,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "Gc": {
+        "name": "Gc",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf bn rw",
+            "yf on",
+            "yf on ge",
+            "yf ow",
+            "yf",
+            "yf re",
+            "yf rw gs",
+            "yf bs",
+            "yf os be"
+        ],
+        "mainAlgorithm": "R2 (U' R U' R U R' U) R2 D' (U R U' R') D",
+        "otherAlgorithms": [],
+        "learnt": 0,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "Gd": {
+        "name": "Gd",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf bn rw",
+            "yf gn",
+            "yf on ge",
+            "yf ow",
+            "yf",
+            "yf be",
+            "yf rw gs",
+            "yf rs",
+            "yf os be"
+        ],
+        "mainAlgorithm": "(R U R' U') D R2 (U' R U' R' U R' U) R2 D'",
+        "otherAlgorithms": [],
+        "learnt": 0,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "H": {
+        "name": "H",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "EPLL"
+        ],
+        "situation": [
+            "yf rw bn",
+            "yf gn",
+            "yf oe bn",
+            "yf ow",
+            "yf",
+            "yf re",
+            "yf rw gs",
+            "yf bs",
+            "yf oe gs"
+        ],
+        "mainAlgorithm": "(M2 U' M2) U2 (M2 U' M2)",
+        "otherAlgorithms": [],
+        "learnt": 4,
+        "evaluation": {
+            "alg": 7,
+            "r": 8,
+            "mm": 8,
+            "as": 0,
+            "bf": 6,
+            "sp": 5,
+            "pr": 10,
+            "u": 3,
+            "gh": 4,
+            "hv": 6,
+            "c": 6
+        },
+        "moves": 7,
+        "cycleLength": 2,
+        "mirror": "H",
+        "notes": [
+            ""
+        ]
+    },
+    "J": {
+        "name": "J",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf gn ow",
+            "yf gn",
+            "yf rn be",
+            "yf ow",
+            "yf",
+            "yf be",
+            "yf ow bs",
+            "yf rs",
+            "yf rs ge"
+        ],
+        "mainAlgorithm": "(R U R' F') (R U R' U') R' F R2 U' R'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "Left J": {
+        "name": "Left J",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf on bw",
+            "yf gn",
+            "yf gn re",
+            "yf bw",
+            "yf",
+            "yf re",
+            "yf gw os",
+            "yf os",
+            "yf bs re"
+        ],
+        "mainAlgorithm": "(L' U' L F) (L' U' L U) L F' L2 U L",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            "Mirror of J."
+        ]
+    },
+    "Na": {
+        "name": "Na",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Opp Swap"
+        ],
+        "situation": [
+            "yf bn rw",
+            "yf bn",
+            "yf gn re",
+            "yf ow",
+            "yf",
+            "yf re",
+            "yf bs ow",
+            "yf gs",
+            "yf gs oe"
+        ],
+        "mainAlgorithm": "(R U R' U) (R U R' F') (R U R' U') R' F R2 U' R' U2 (R U' R')",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "Nb": {
+        "name": "Nb",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Opp Swap"
+        ],
+        "situation": [
+            "yf ow gn",
+            "yf bn",
+            "yf oe bn",
+            "yf ow",
+            "yf",
+            "yf re",
+            "yf rw gs",
+            "yf gs",
+            "yf bs re"
+        ],
+        "mainAlgorithm": "(R' U R U' R') (F' U' F) (R U R') (F R' F') (R U' R)",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 10": {
+        "name": "OLL 10",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Fish Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "(R U R' U) (R' F R F') (R U2 R')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 11": {
+        "name": "OLL 11",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Lightning Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yn",
+            "ye",
+            "yw",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "M (R U R' U R U2 R') U M'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 12": {
+        "name": "OLL 12",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Lightning Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "yn",
+            "yw",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "M' (R' U' R U' R' U2 R) U' M",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 13": {
+        "name": "OLL 13",
+        "alternativeNames": [
+            "Knight 1"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Knight Move Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yn",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "(r U' r') U' (r U r') (F' U F)",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 14": {
+        "name": "OLL 14",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Knight Move Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(l' U l) U (l' U' l) (F U' F')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 15": {
+        "name": "OLL 15",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Knight Move Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yn",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(r' U' r) (R' U' R U) (r' U r)",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 16": {
+        "name": "OLL 16",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Knight Move Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "(r U r') (R U R' U') (r U' r')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 21": {
+        "name": "OLL 21",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "ye"
+        ],
+        "mainAlgorithm": "(R U R' U) (R U' R' U) (R U2 R')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 11,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 22": {
+        "name": "OLL 22",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "R U2 (R2' U') (R2 U') (R2' U') U' R",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": 2
+        },
+        "moves": 10,
+        "cycleLength": 2,
+        "mirror": "",
+        "notes": [
+            "Cycle is actually 6 if you consider the other colors."
+        ]
+    },
+    "OLL 23": {
+        "name": "OLL 23",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "R2 D (R' U2 R) D' (R' U2 R')",
+        "otherAlgorithms": [],
+        "learnt": 2,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": 2
+        },
+        "moves": 9,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 24": {
+        "name": "OLL 24",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf",
+            "yf"
+        ],
+        "mainAlgorithm": "(r U R' U') (r' F R F')",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 10,
+            "r": 10,
+            "mm": 10,
+            "as": 3,
+            "bf": -1,
+            "sp": 6,
+            "pr": 10,
+            "u": 4,
+            "gh": 5,
+            "hv": 2,
+            "c": 8
+        },
+        "moves": 8,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            "OLL 33 with fat rights."
+        ]
+    },
+    "OLL 25": {
+        "name": "OLL 25",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf",
+            "yf"
+        ],
+        "mainAlgorithm": "x (R' U R D') (R' U' R D) x'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 8,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 26": {
+        "name": "OLL 26",
+        "alternativeNames": [
+            "Antisune"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf",
+            "yf"
+        ],
+        "mainAlgorithm": "(L' U' L U') (L' U2 L)",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 7,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 27": {
+        "name": "OLL 27",
+        "alternativeNames": [
+            "Sune"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "OCLL"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "(R U R' U) (R U2 R')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 7,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 28": {
+        "name": "OLL 28",
+        "alternativeNames": [
+            "Adjacent edges"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "All Corners Oriented"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(r U R' U') (r' F R2) (U' R' U') (R U R' F')",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 14,
+        "cycleLength": 4,
+        "mirror": "",
+        "notes": [
+            "Same algorithm as T but with fat rights at the start."
+        ]
+    },
+    "OLL 29": {
+        "name": "OLL 29",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Awkward Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ye",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(R U R') U' (R U' R') (F' U' F) (R U R')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 13,
+        "cycleLength": 4,
+        "mirror": "OLL 44",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 30": {
+        "name": "OLL 30",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Awkward Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "F U (R U2 R') U' (R U2 R') U' F'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 11,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 31": {
+        "name": "OLL 31",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "P Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(R' U' F) (U R U' R') F' R",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 32": {
+        "name": "OLL 32",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "P Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "(L U F') (U' L' U L) F L'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 33": {
+        "name": "OLL 33",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "T Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(R U R' U') (R' F R F')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 34": {
+        "name": "OLL 34",
+        "alternativeNames": [
+            "C exterior"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "C Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "R U R2 U' R' F (R U R U') F'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 11,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 35": {
+        "name": "OLL 35",
+        "alternativeNames": [
+            "Fish orthogonal"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Fish Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yn",
+            "ye",
+            "yw",
+            "yf",
+            "yf",
+            "ys",
+            "yf",
+            "yf"
+        ],
+        "mainAlgorithm": "(R U2 R') (R' F R F') (R U2 R')",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 36": {
+        "name": "OLL 36",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "W Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "yn",
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(L' U' L U') (L' U L U) (L F' L' F)",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 37": {
+        "name": "OLL 37",
+        "alternativeNames": [
+            "Fish aligned"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Fish Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "ye",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "F R (U' R' U') (R U R') F'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 38": {
+        "name": "OLL 38",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "W Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "(R U R' U) (R U' R' U') (R' F R F')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 39": {
+        "name": "OLL 39",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Lightning Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "L F' (L' U' L U) F U' L'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 40": {
+        "name": "OLL 40",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Lightning Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yn",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "R' F (R U R' U') F' U R",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 41": {
+        "name": "OLL 41",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Awkward Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(R U R' U) (R U2 R') F (R U R' U') F'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 13,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 42": {
+        "name": "OLL 42",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Awkward Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "yn",
+            "yw",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(L' U' L U') (L' U2 L) F' (L' U' L U) F",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 13,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 43": {
+        "name": "OLL 43",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "P Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "F' (U' L' U L) F",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 44": {
+        "name": "OLL 44",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "P Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "F (U R U' R') F'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 45": {
+        "name": "OLL 45",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "T Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "F (R U R' U') F'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 46": {
+        "name": "OLL 46",
+        "alternativeNames": [
+            "C aligned"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "C Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "ye"
+        ],
+        "mainAlgorithm": "R' U' (R' F R F') U R",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 8,
+        "cycleLength": 6,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 47": {
+        "name": "OLL 47",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "L Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "F' (L' U' L U) (L' U' L U) F",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 48": {
+        "name": "OLL 48",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "L Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "ye",
+            "yw",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "F (R U R' U') (R U R' U') F'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 49": {
+        "name": "OLL 49",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "L Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "r U' (r2 U) (r2 U) (r2) U' r",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 5": {
+        "name": "OLL 5",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Square Shapes"
+        ],
+        "situation": [
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "ye",
+            "yw",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "l' U2 (L U L' U) l",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 50": {
+        "name": "OLL 50",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "L Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "yn",
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "r' U (r2 U') (r2 U') (r2) U r'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 51": {
+        "name": "OLL 51",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Line Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "f (R U R' U') (R U R' U') f'",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 52": {
+        "name": "OLL 52",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Line Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yw",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "ys"
+        ],
+        "mainAlgorithm": "R' (F' U' F U') (R U R' U) R",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 53": {
+        "name": "OLL 53",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "L Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "ye",
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "ye"
+        ],
+        "mainAlgorithm": "(r' U' R U') (R' U R U') (R' U2 r)",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 54": {
+        "name": "OLL 54",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "L Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "(r U R' U) (R U' R' U) (R U2 r')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 55": {
+        "name": "OLL 55",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Line Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "ye",
+            "yw",
+            "yf",
+            "ye"
+        ],
+        "mainAlgorithm": "R U2 R2 (U' R U' R') U2 (F R F')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 56": {
+        "name": "OLL 56",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Line Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yn",
+            "ye",
+            "yf",
+            "yf",
+            "yf",
+            "yw",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "(r U r') (U R U' R') (U R U' R') (r U' r')",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 57": {
+        "name": "OLL 57",
+        "alternativeNames": [
+            "Opposed edges"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "All Corners Oriented"
+        ],
+        "situation": [
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "yf",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(R U R' U') M' (U R U' r')",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 6": {
+        "name": "OLL 6",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Square Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yf",
+            "yw",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "ye"
+        ],
+        "mainAlgorithm": "r U2 (R' U' R U') r'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "R lightning",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 7": {
+        "name": "OLL 7",
+        "alternativeNames": [
+            "R lightning"
+        ],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Lightning Shapes"
+        ],
+        "situation": [
+            "yn",
+            "yf",
+            "ye",
+            "yf",
+            "yf",
+            "ye",
+            "yf",
+            "ys",
+            "ys"
+        ],
+        "mainAlgorithm": "r (U R' U R) U2 r'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "SS 1",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 8": {
+        "name": "OLL 8",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Lightning Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yw",
+            "yf",
+            "yf",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "l' U' L U' L' U2 l",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "OLL 9": {
+        "name": "OLL 9",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "OLL",
+            "Fish Shapes"
+        ],
+        "situation": [
+            "yw",
+            "yf",
+            "yn",
+            "yf",
+            "yf",
+            "ye",
+            "ys",
+            "ys",
+            "yf"
+        ],
+        "mainAlgorithm": "(R U R' U') (R' F R) (R U R' U') F'",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            "Very similar to T."
+        ]
+    },
+    "Orient corners 1": {
+        "name": "Orient corners 1",
+        "alternativeNames": [],
+        "categories": [
+            "Beginner",
+            "Last face",
+            "Easy"
+        ],
+        "situation": [
+            "",
+            "yf rn",
+            "",
+            "yf gw",
+            "yf",
+            "yf be",
+            "",
+            "yf os",
+            "of ye bs"
+        ],
+        "mainAlgorithm": "2 (R' D' R D)",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 8,
+        "cycleLength": 3,
+        "mirror": "Orient corners 2",
+        "notes": [
+            "Needs to be done for every corner to keep the first two layers intact."
+        ]
+    },
+    "Orient corners 2": {
+        "name": "Orient corners 2",
+        "alternativeNames": [],
+        "categories": [
+            "Beginner",
+            "Last face",
+            "Advanced"
+        ],
+        "situation": [
+            "",
+            "yf rn",
+            "",
+            "yf gw",
+            "yf",
+            "yf be",
+            "",
+            "yf os",
+            "bf ys oe"
+        ],
+        "mainAlgorithm": "2 (D' R' D R)",
+        "otherAlgorithms": [],
+        "learnt": -1,
+        "evaluation": {
+            "alg": -1,
+            "r": -1,
+            "mm": -1,
+            "as": -1,
+            "bf": -1,
+            "sp": -1,
+            "pr": -1,
+            "u": -1,
+            "gh": -1,
+            "hv": -1,
+            "c": -1
+        },
+        "moves": 8,
+        "cycleLength": 3,
+        "mirror": "Orient corners 1",
+        "notes": [
+            "Needs to be done for every corner to keep the first two layers intact."
+        ]
+    },
+    "Orient edges": {
+        "name": "Orient edges",
+        "alternativeNames": [],
+        "categories": [
+            "Beginner",
+            "Last face",
+            "Easy"
+        ],
+        "situation": [
+            "",
+            "yf",
+            "",
+            "yf",
+            "yf",
+            "ye",
+            "",
+            "ys",
+            ""
+        ],
+        "mainAlgorithm": "F (U R U' R') F'",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 10,
+            "r": 9,
+            "mm": 9,
+            "as": 2,
+            "bf": 9,
+            "sp": 6,
+            "pr": 10,
+            "u": 9,
+            "gh": 3,
+            "hv": 7,
+            "c": 9
+        },
+        "moves": 6,
+        "cycleLength": null,
+        "mirror": "OLL 45",
+        "notes": [
+            "Actual OLL 44."
+        ]
+    },
+    "Position edges": {
+        "name": "Position edges",
+        "alternativeNames": [],
+        "categories": [
+            "Beginner",
+            "Last face",
+            "Easy"
+        ],
+        "situation": [
+            "",
+            "yf bn",
+            "",
+            "yf gw",
+            "yf",
+            "yf oe",
+            "",
+            "yf rs",
+            ""
+        ],
+        "mainAlgorithm": "(R U R' U) (R U2 R')",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 10,
+            "r": 10,
+            "mm": 10,
+            "as": 4,
+            "bf": 10,
+            "sp": 7,
+            "pr": 9,
+            "u": 9,
+            "gh": 5,
+            "hv": 9,
+            "c": 10
+        },
+        "moves": 7,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            "Sune but used differently."
+        ]
+    },
+    "Ra": {
+        "name": "Ra",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf rn gw",
+            "yf gn",
+            "yf on ge",
+            "yf bw",
+            "yf",
+            "yf re",
+            "yf bs ow",
+            "yf os",
+            "yf re bs"
+        ],
+        "mainAlgorithm": "(L U2) (L' U2) (L F' L') (U' L U L) F L2",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            "Same as Rb but on the left."
+        ]
+    },
+    "Rb": {
+        "name": "Rb",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adj Swap"
+        ],
+        "situation": [
+            "yf gn ow",
+            "yf on",
+            "yf bn oe",
+            "yf bw",
+            "yf",
+            "yf re",
+            "yf rs bw",
+            "yf gs",
+            "yf rs ge"
+        ],
+        "mainAlgorithm": "(R' U2) (R U2) (R' F R) (U R' U' R') F' R2",
+        "otherAlgorithms": [],
+        "learnt": 3,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            "Same as Ra but on the right."
+        ]
+    },
+    "T": {
+        "name": "T",
+        "alternativeNames": [
+            "T perm"
+        ],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Adjacent Swaps"
+        ],
+        "situation": [
+            "yf rw bn",
+            "yf bn",
+            "yf on ge",
+            "yf ow",
+            "yf",
+            "yf re",
+            "yf rw gs",
+            "yf gs",
+            "yf be os"
+        ],
+        "mainAlgorithm": [
+            "(R U R' U') (R' F R2) (U' R' U') (R U R' F')"
+        ],
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 10,
+            "r": 10,
+            "mm": 10,
+            "as": 3,
+            "bf": 10,
+            "sp": 8,
+            "pr": 10,
+            "u": 8,
+            "gh": 9,
+            "c": 10
+        },
+        "moves": 14,
+        "cycleLength": 2,
+        "mirror": "T",
+        "notes": [
+            "Same two steps as Y.",
+            "Main algorithm for adjacent corner swaps."
+        ]
+    },
+    "Ua": {
+        "name": "Ua",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "EPLL"
+        ],
+        "situation": [
+            "yf bn rw",
+            "yf bn",
+            "yf bn oe",
+            "yf gw",
+            "yf",
+            "yf re",
+            "yf gs rw",
+            "yf os",
+            "yf gs oe"
+        ],
+        "mainAlgorithm": "R U' R U R U R U' R' U' R2",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 9,
+            "r": 9,
+            "mm": 7,
+            "as": 1,
+            "bf": 8,
+            "sp": 4,
+            "pr": 9,
+            "u": 7,
+            "gh": 7,
+            "hv": 4,
+            "c": 9
+        },
+        "moves": 11,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            "Had learnt the better algorithm but forgot."
+        ]
+    },
+    "Ub": {
+        "name": "Ub",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "EPLL"
+        ],
+        "situation": [
+            "yf gn ow",
+            "yf gn",
+            "yf gn re",
+            "yf rw",
+            "yf",
+            "yf be",
+            "yf bs ow",
+            "yf os",
+            "yf bs re"
+        ],
+        "mainAlgorithm": "L U L' U' L' U' L' U L U L2",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 9,
+            "r": 9,
+            "mm": 7,
+            "as": 1,
+            "bf": 8,
+            "sp": 4,
+            "pr": 9,
+            "u": 7,
+            "gh": 7,
+            "hv": 4,
+            "c": 9
+        },
+        "moves": 11,
+        "cycleLength": 3,
+        "mirror": "",
+        "notes": [
+            "Had learnt the better algorithm but forgot."
+        ]
+    },
+    "V": {
+        "name": "V",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Opp Swap"
+        ],
+        "situation": [
+            "yf ow gn",
+            "yf on",
+            "yf bn oe",
+            "yf rw",
+            "yf",
+            "yf be",
+            "yf rw gs",
+            "yf gs",
+            "yf bs re"
+        ],
+        "mainAlgorithm": "(R' U R' U') (R D' R' D) (R' U D') (R2 U' R2) D R2",
+        "otherAlgorithms": [],
+        "learnt": 0,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    },
+    "Y": {
+        "name": "Y",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "Opp Swap"
+        ],
+        "situation": [
+            "yf gw rn",
+            "yf bn",
+            "yf on ge",
+            "yf ow",
+            "yf",
+            "yf ge",
+            "yf bw rs",
+            "yf rs",
+            "yf os be"
+        ],
+        "mainAlgorithm": "F R (U' R' U') (R U R' F') (R U R' U') (R' F R F')",
+        "otherAlgorithms": [],
+        "learnt": 5,
+        "evaluation": {
+            "alg": 5,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 5,
+            "u": 5,
+            "gh": 5,
+            "hv": 5,
+            "c": 5
+        },
+        "moves": 17,
+        "cycleLength": 2,
+        "mirror": "Y",
+        "notes": [
+            "Same two steps as T.",
+            "Main algorithm for opposite corner swaps."
+        ]
+    },
+    "Z": {
+        "name": "Z",
+        "alternativeNames": [],
+        "categories": [
+            "CFOP",
+            "PLL",
+            "EPLL"
+        ],
+        "situation": [
+            "yf ow gn",
+            "yf on",
+            "yf re gn",
+            "yf gw",
+            "yf",
+            "yf be",
+            "yf ow bs",
+            "yf rs",
+            "yf re bs"
+        ],
+        "mainAlgorithm": "(M2 U) (M2 U) (M' U2) M2 (U2 M')",
+        "otherAlgorithms": [],
+        "learnt": 4,
+        "evaluation": {
+            "alg": 3,
+            "r": 5,
+            "mm": 5,
+            "as": 5,
+            "bf": 5,
+            "sp": 5,
+            "pr": 10,
+            "u": 5,
+            "gh": 5,
+            "hv": 1,
+            "c": 1
+        },
+        "moves": null,
+        "cycleLength": null,
+        "mirror": "",
+        "notes": [
+            ""
+        ]
+    }
+}

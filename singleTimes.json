@@ -1,0 +1,6206 @@
+var sTimes = [
+    {
+        "time": 35.29,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.83,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.58,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.13,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.38,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.43,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.41,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.75,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 40.06,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.7,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.95,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.89,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.98,
+        "date": "2022-03-01",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.67,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.33,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.07,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.7,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.83,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 40.38,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 40.38,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.16,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.67,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.08,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.12,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.19,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.87,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.71,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.45,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.84,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.56,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.35,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.11,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.73,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.67,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.16,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.91,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.61,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.42,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.7,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.55,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.41,
+        "date": "2022-03-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.18,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.34,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.46,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.37,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.02,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.9,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.48,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.82,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.22,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.89,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.11,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.71,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.06,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.68,
+        "date": "2022-03-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.65,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.62,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.3,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.32,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.1,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.8,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.25,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.92,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.03,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.28,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.12,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.96,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.08,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.8,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.6,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.54,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.25,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.98,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.31,
+        "date": "2022-03-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.17,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.39,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.52,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.67,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.97,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.6,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.04,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.4,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.79,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.53,
+        "date": "2022-03-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.57,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.17,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.42,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.31,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.59,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.04,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.64,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.74,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.41,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.14,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.62,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.45,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.69,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.53,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.16,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.68,
+        "date": "2022-03-13",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.72,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.71,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.96,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.79,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.42,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.65,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.95,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.52,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.9,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.3,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.24,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.37,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.83,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.23,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 20.8,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.26,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.6,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.19,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.95,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.37,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.28,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.9,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.6,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.99,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.54,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.99,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.47,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.72,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.78,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.37,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.75,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.18,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.58,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.55,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.02,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.17,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.32,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.43,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.61,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.78,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.29,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.3,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.21,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.61,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.05,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.06,
+        "date": "2022-03-16",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.22,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.65,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.59,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.74,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.38,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.61,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.76,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.69,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.93,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.7,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.68,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.14,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.71,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.97,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.73,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.39,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.11,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.86,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.17,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.04,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.09,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.08,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.61,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.64,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.27,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.2,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.89,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.43,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.61,
+        "date": "2022-03-19",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.69,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.7,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.62,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.82,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.04,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.23,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.13,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.19,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.39,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.28,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.47,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.7,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.55,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.43,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.68,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.4,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.33,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.06,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.08,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.43,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.34,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.99,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.35,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.81,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.58,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.12,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.44,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.48,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.81,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.89,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.33,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.15,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.1,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.82,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.03,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.99,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.01,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.03,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.12,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.31,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.15,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.46,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.68,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.93,
+        "date": "2022-03-20",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.45,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.2,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.47,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.93,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 39.6,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.77,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.69,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.18,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.65,
+        "date": "2022-03-26",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.25,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.99,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.65,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.56,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.23,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.51,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.47,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.35,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.9,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.37,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.71,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.06,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.11,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.01,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.66,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.39,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.49,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.73,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.2,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 21.14,
+        "date": "2022-03-27",
+        "link": "https://youtu.be/Ry0-1-dum-0",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.25,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.62,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.57,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.46,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.95,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.11,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.98,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.13,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 21.2,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.99,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.55,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 23.63,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.31,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.18,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.83,
+        "date": "2022-03-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.1,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.38,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.05,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.41,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.38,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.45,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.82,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.84,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.32,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.83,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.83,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.48,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.79,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.08,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.14,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.62,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.83,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.91,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.94,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.25,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.19,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.07,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.41,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.79,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.13,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.1,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.54,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.35,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.01,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.06,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.02,
+        "date": "2022-04-02",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.72,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.84,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.33,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.17,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.41,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.4,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.93,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.74,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.15,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.53,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.94,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.66,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.15,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.55,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.16,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.76,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.66,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.8,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.53,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.18,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.58,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.5,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.65,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.71,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.18,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.78,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.22,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.73,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.75,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.43,
+        "date": "2022-04-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.1,
+        "date": "2022-04-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.87,
+        "date": "2022-04-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.13,
+        "date": "2022-04-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.99,
+        "date": "2022-04-06",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.86,
+        "date": "2022-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.9,
+        "date": "2022-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.94,
+        "date": "2022-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.89,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.78,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.51,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.73,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.19,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.68,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.68,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.31,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.86,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 18.56,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "First sub 20, long lasting PB."
+        ]
+    },
+    {
+        "time": 27.38,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.11,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.42,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.75,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.15,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.43,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.81,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.31,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.01,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.45,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.06,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.45,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.91,
+        "date": "2022-04-18",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.2,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.3,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.29,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.1,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.97,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.71,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.5,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.97,
+        "date": "2022-04-27",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.87,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.83,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.57,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.86,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.34,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.44,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.63,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.46,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.67,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 25.59,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.56,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.53,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.5,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.6,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.29,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.83,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 21.53,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.21,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.69,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.62,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 23.97,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.98,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.35,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.98,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 23.86,
+        "date": "2022-06-03",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.73,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.71,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 23.17,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.89,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.26,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.15,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.2,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.22,
+        "date": "2022-06-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.7,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.86,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.38,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.78,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.91,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 34.35,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.61,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.39,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.72,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 38.8,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.65,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.03,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.44,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.04,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.07,
+        "date": "2022-07-10",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.72,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.92,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.52,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.55,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.19,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.92,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.83,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.21,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.4,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.1,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 22.3,
+        "date": "2022-07-12",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.34,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.79,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 33.48,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.14,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.5,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.53,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 30.51,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 24.57,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 32.77,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.6,
+        "date": "2022-07-14",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 29.6,
+        "date": "2022-08-08",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.36,
+        "date": "2022-08-08",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 26.3,
+        "date": "2022-08-08",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 41.65,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.96,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.42,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.53,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 35.51,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 42.87,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 28.39,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 27.55,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 36.39,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 42.18,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 42.6,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 37.6,
+        "date": "2024-04-11",
+        "link": "",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            ""
+        ]
+    },
+    {
+        "time": 31.96,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/iyEAQ8nXAvI",
+        "scramble": "F' L' R B U2 B2 F' D2 F' B R2 D2 R2 U2 R2 U2 L R U' B R D U R' U2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 40.77,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/iyEAQ8nXAvI",
+        "scramble": "B2 U' L' D2 F' R' F L' F' B D R L B' R' L2 B2 D R2 F' U' F2 U' F' D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session. Messed up the scramble near the end, not perfectly accurate."
+        ]
+    },
+    {
+        "time": 32.62,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/iyEAQ8nXAvI",
+        "scramble": "F2 R L' D U2 L B R2 F2 R' L B' D2 B' R' U2 B U' B F L2 D' F2 R' L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 34.2,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/iyEAQ8nXAvI",
+        "scramble": "L' B L' R2 B' L2 D' B2 L2 U2 F2 D' L2 D2 U F2 L2 B2 L R' U R' L2 B2 F",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.77,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/iyEAQ8nXAvI",
+        "scramble": "U D R B' F' L2 F L2 U F' R' B R' B2 D' F' B R2 U2 D' R' D2 U R2 D",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.16,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/9m5k3v4mlGY",
+        "scramble": "B2 R2 D U R' F D F L' U2 L2 B L B L2 B R B' D F' D' U2 B L' B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 49.55,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/9m5k3v4mlGY",
+        "scramble": "R2 B2 L2 D2 B2 D' U' F' B2 U L' F' B2 U R' L2 F2 D' L U2 L U2 B2 D' R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.92,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/9m5k3v4mlGY",
+        "scramble": "D' L2 B' R2 U' B L' R' F' D2 F2 L' R U R' L' U' F B2 U2 L' U D B L2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 27.31,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/9m5k3v4mlGY",
+        "scramble": "F B2 L' B2 R2 B L D2 F U' L' U' R2 D U2 L' U' L2 U' F2 U2 F2 R B' L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.51,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/9m5k3v4mlGY",
+        "scramble": "D2 U' F' B U2 B' D2 L R U2 R2 D B2 F2 L' D' B2 R B2 F' U2 R' L' B U",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 40.47,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/p_tlt8scaiY",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.45,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/p_tlt8scaiY",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.55,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/p_tlt8scaiY",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 23.23,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/p_tlt8scaiY",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 34.44,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/p_tlt8scaiY",
+        "scramble": "",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 45.51,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/bytr9nP01q4",
+        "scramble": "L' F D2 U R' U' R2 U' L D2 F' U' F2 L' R2 U2 D' L D' F L B R D' F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.21,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/bytr9nP01q4",
+        "scramble": "D2 B2 U' F2 D U' F2 U' L2 D L2 F L' R B2 R F L2 F' D2 U' B' L' R D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.48,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/bytr9nP01q4",
+        "scramble": "B L2 R' F R F2 B2 L D2 U' L2 R2 F' D2 U R L2 D2 U F U' F2 U B R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.34,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/bytr9nP01q4",
+        "scramble": "B2 L2 B F2 L2 F2 B L2 B2 R2 U' R' F R' D' R' D2 U' R' U L' U2 L2 F2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 25.08,
+        "date": "2024-08-12",
+        "link": "https://youtu.be/bytr9nP01q4",
+        "scramble": "F B R' B' U D' F2 R D2 B L D2 F2 B2 U B U' R2 U B U' L2 D U' L",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 35.52,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/iuB6n-9POV4",
+        "scramble": "U F' D2 B F2 L' F2 U' D F2 D2 R F2 R D B' L U' F' U2 L' F D2 R2 D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.44,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/iuB6n-9POV4",
+        "scramble": "L R B U2 R2 B2 F D2 L' D' B2 L' D2 U B L R F' D B2 L2 R F2 R B",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 24.95,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/iuB6n-9POV4",
+        "scramble": "B D2 L' F L D' B2 D' B' D' L2 D R B R' B F D2 F R D U' R2 B' L2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.15,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/iuB6n-9POV4",
+        "scramble": "D R B L2 B2 U2 R' U2 L' B' L2 U2 D2 B' F2 U' D B2 L' B2 R B2 L2 B' D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.46,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/iuB6n-9POV4",
+        "scramble": "D' B' U B L2 U' D R2 B' R2 F D' U2 B U2 B R' B' U' R U' D B2 D2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.23,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/gWBG3-kHM-A",
+        "scramble": "B' D2 U F' R' B' R' U2 F2 B2 R2 L' B U' D F2 U' F D L R' B2 U2 R2 U'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 36.56,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/gWBG3-kHM-A",
+        "scramble": "B U2 B2 D2 L2 R2 D F U' D' F' U' R B F R' F D2 L' D' B L U2 F2 B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.79,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/gWBG3-kHM-A",
+        "scramble": "F L D2 R2 F R' F' D' U2 R F2 B2 U' L' U' L2 B' L R D' R' L2 U B U2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.47,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/gWBG3-kHM-A",
+        "scramble": "B' F D L2 F2 B2 U D2 B R' U B' F2 L' B2 L B2 U' D' R' F' R' D L B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.99,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/gWBG3-kHM-A",
+        "scramble": "L R2 D U R2 B' F2 D R2 B' L2 R B' F U F' U' F' U F B U B L2 B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.03,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "R' B' D' F' R2 F L' B2 D F R2 F2 B' U2 F2 U B2 F D U2 R2 D2 F2 B' R",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 38.24,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "L2 F' D U R' B2 R' B F2 D' U' B L' F U2 R' D2 B' R2 D F' U' F' R' B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.67,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "D' R F2 B2 D' F' U' D' R' D' B' D B' R2 B' D' F' B2 R' D2 R' U2 D' R' F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.37,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "B' L' B D' R' F U' R' L' F D B' L2 R D2 U2 B' U F' L' F' B U2 F D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 37.76,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "B F' D' B2 F L' D2 R' D' R' B' U' B2 R' F D F' R' F' D2 B' D2 B' R' D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.07,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/B0SHBt-ppKw",
+        "scramble": "D R' F2 D' R' L F' U' F' R' L' F' B' R' D' U' F L' B' F' D R L' B' D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.98,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/B0SHBt-ppKw",
+        "scramble": "F' D2 B2 F D2 B U' F' U' L' D' R' B' U2 R2 U' B2 U' F D U2 R' F B' R2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 24.89,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/B0SHBt-ppKw",
+        "scramble": "U L' D2 L' B' D' F' B' D' F B' D2 B D B' R2 F' B R' D' U' F' D2 U' R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.82,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/B0SHBt-ppKw",
+        "scramble": "B' F' D' F B D B' D' B2 R' L D R' F2 B D' F' R2 D' R B2 L2 B L D",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.97,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/B0SHBt-ppKw",
+        "scramble": "B' U' B' D R' B F' D2 B D' L' F' R' U2 F' R2 F' B D' B' R D R' F' D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.81,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "F R U' R' D' F' B' D' L' F' L' D' B' F2 D' R' F' U' D B' F R' B U2 L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 27.48,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "L2 F B2 U2 F' U2 D' L U' R D2 L2 U2 B D2 R2 D' B2 D B U' D2 B' D2 F",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.3,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "B D2 L' F L2 B' U B' F' L' B2 U2 R2 L2 B2 R2 L D' L2 B' U' D' L2 U2 D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.25,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "B' R U' B F2 L2 B U' D' R' F' D' F B2 D L2 F2 D' B' R' L' F' B2 R' F2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.1,
+        "date": "2024-08-13",
+        "link": "",
+        "scramble": "F' B2 R' F' R2 B F' D' R2 U2 B2 D B2 R' B' F' D' F R B' F2 R' L' U' B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 44.92,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/kPK6uwFkJ-Y",
+        "scramble": "B L' D R2 B' L2 D' F D2 B' R U2 L' D' U' R' D2 F2 R U' R2 B' R' L2 F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.54,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/kPK6uwFkJ-Y",
+        "scramble": "F B' U R F R' B' L' B' R' B' D2 B' L' B2 F2 U2 B' R2 L' B' R2 L2 D' B",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.41,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/kPK6uwFkJ-Y",
+        "scramble": "B2 R D' R2 F R' F2 L B' F R D R2 B2 U' R' L' U' R D' R' F D2 R2 B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.12,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/kPK6uwFkJ-Y",
+        "scramble": "B' F2 R' B2 U' D' F' L2 R F2 R' F' B' D' R' L2 F2 R U' F' B' D2 R2 B2 L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.6,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/kPK6uwFkJ-Y",
+        "scramble": "F' R2 F' U2 F D2 F2 R B R D2 B' R' U2 F B2 R F2 D2 R' F D' R' L' B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.31,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/cLSA7U5hh38",
+        "scramble": "R' D' R U' F' R B' D R' U' L2 U' F2 U2 L' F' D B2 D2 L' D' F2 B' R' F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 36.98,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/cLSA7U5hh38",
+        "scramble": "B2 F2 L' B' U' R2 L' F' U' F' B' U' D2 B' F' L R2 U' R L' F2 R' B D U",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.57,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/cLSA7U5hh38",
+        "scramble": "F B2 D2 U F' D' R' D F2 R' B' R2 B' F' L D2 F B' D2 L F' D2 L' F2 B",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 27.6,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/cLSA7U5hh38",
+        "scramble": "B' D' U' B' F' D2 R' D2 B' D2 U R' F2 D B U F' D' L' B' D' B2 U2 F' L2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 20.62,
+        "date": "2024-08-13",
+        "link": "https://youtu.be/cLSA7U5hh38",
+        "scramble": "B F' D B R D F R2 F2 R2 D2 B D2 B' R B' R' F' B L2 F2 L' D' U2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 35.49,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/bhB6CZNcD8s",
+        "scramble": "R' B' F' D' F' U' R2 U2 B' D' U2 B2 L D' U' L' B2 F2 L2 B R L2 B2 R' B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.7,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/bhB6CZNcD8s",
+        "scramble": "F R2 D' F' U' B2 F' D' F R' L' F2 R' U' B F' U' R' B' D2 B F2 D F' U",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.24,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/bhB6CZNcD8s",
+        "scramble": "L2 U B' R' L D' U2 R D U' R' B' F' D R' L' F' B U' B D' R' B' U2 B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.01,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/bhB6CZNcD8s",
+        "scramble": "F2 B' R U F L F' B D2 F' R D2 B2 D F' U' L B' F D2 F2 L' R B2 D",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.48,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/bhB6CZNcD8s",
+        "scramble": "F D U2 B2 U' R' L F2 B' U' D' R2 D' U F B R' L D2 L' F' B R' U' R",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 34,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "R' L' F B' R2 F B U D B2 F' R' D2 F' L2 U L' R2 D' F' D' R2 B' F D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 35,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "U2 B' L F R' L2 D' F' B' U' F' D' F' B' D' R' F U B F' L2 D' B' F2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 72,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "D F D2 L' U2 F' B' D' B L' F B' D' R' D' R D' U' L' D F' R D' U B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.43,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "B F' U' L D2 F L2 D R D' F' B' D' L B' L' R' D B' R' L' F2 R2 F' R",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 38.31,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "F' R D B' F' L' U' B' F2 L' D' U' B' U' R' U R' U' D B2 D2 R F' U' B",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.17,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/tBoNk_OHy3M",
+        "scramble": "D L' D' R2 F' L' D' B F' D' B2 D' B' D' F' R' D' L B2 R' F2 D B2 R2 U2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.19,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/tBoNk_OHy3M",
+        "scramble": "U' L' B' F' R' D' R B' R B' D2 R' F2 U' F2 R2 F' D' B' R' D F2 B' R D",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.4,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/tBoNk_OHy3M",
+        "scramble": "F2 L' B F' R F R' L F2 R F2 L2 B L F2 B' D2 F U D R' L' D' B' R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.91,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/tBoNk_OHy3M",
+        "scramble": "D2 U L' B R' L' F' B' R' U' D L' D' B2 R' F' B2 D' B2 F U2 B' L2 F D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.34,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/tBoNk_OHy3M",
+        "scramble": "D B2 D2 B F' R' U2 R' B D' B' U2 R' F2 R' D' U' R' F' B' D' R D' B' D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 24.71,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/L5av0uBaLbQ",
+        "scramble": "F D R' D' R' B2 D2 B F' U' L' F' R' B2 F' U2 L2 U2 F' B' D' F' U2 D L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.22,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/L5av0uBaLbQ",
+        "scramble": "B U2 R B D' F' D L' F' R' L' F2 R F2 R' D B' R' D B U' B' L2 R2 D'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 24.9,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/L5av0uBaLbQ",
+        "scramble": "L F' R F' R L D' B' D2 B' D2 R' F2 B' L' D' R' B' U2 B' R' B' U B' L2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 24.73,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/L5av0uBaLbQ",
+        "scramble": "F2 B' D F2 U2 F2 B' D' B' R' B2 D' B' R' D2 U' B2 U' F R2 D' R' L' F2 D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.14,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/L5av0uBaLbQ",
+        "scramble": "L2 B' D' R2 B F2 L2 F B' L' B' F' D F2 B' L' F2 B' D2 F2 B' U2 L' F D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 36.07,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "R B D2 U' L' D' U' B' F R' D' R' B U2 D L2 D' B F' L2 D' R F B U'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 25.26,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "D' F U' F R2 B2 F' R D' F R2 L' D' B' D F' D U2 F U2 B' F2 R' B R2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 35.1,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "B2 F' U D' B2 R' B R' L2 F' D2 F B' R' D' F2 L' D' R' D B' R' L' D2 F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 34.47,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "B' U F' B2 D2 U' L' B' L2 B D' U' B L2 D2 B F' D' L D' L' B' F' L2 F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.45,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "B' D' F' D2 F' D R L D U' R' F' D2 R2 F D' F' R' F' L' R' U2 R2 D' U",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 32.08,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/pssc5GhMiEU",
+        "scramble": "F' B2 R2 U' F2 U R' U L' F D U L' B L D' F' D F' L2 B' D' F' D' R",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.01,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/pssc5GhMiEU",
+        "scramble": "U R D2 U' R' B2 D2 F' R B2 U2 F D2 F L' D2 R2 U' R' L' U' B' R' F2 D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 25.93,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/pssc5GhMiEU",
+        "scramble": "F' D2 B U' F' R' D' F' R' L' D2 F' D2 U2 R D' R2 B2 U2 L2 F' B' L' B' F",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 25.1,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/pssc5GhMiEU",
+        "scramble": "B U' B' F' D2 F2 L2 F' L2 R2 F2 B L F U2 B' D' L F' U2 F' U2 B R' U'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 27.78,
+        "date": "2024-08-14",
+        "link": "https://youtu.be/pssc5GhMiEU",
+        "scramble": "D' B' R' F B' D' F' L2 D2 R2 D2 U' F B' R F' D' L' B R' D' L2 F D2 B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 39.13,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "U2 F' B' L B2 F' R' F' R' B' D2 R' L2 F' B2 R' U' F' U' B2 D' F2 L' F' D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 38.19,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "R2 B' R' B' R D2 L' U2 F2 D2 R2 B' D2 R' U2 D F2 L' B' D' U' L D2 U2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 39.03,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "F2 D2 F B D' F B R' F2 D' R' B2 U F' B2 D B D' B' F2 L2 B2 L2 R' D",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.52,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "L' F2 R2 D' B R U2 L' D' R' B' L2 B' F' L B' D2 F B' D' U' R' U B' L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 37.38,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "L' D2 F2 D2 F' D' R2 B' U F R2 U' R' U F2 R' B2 D2 R' D2 B' F' R2 D F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.57,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "U B F' R' F' D F2 D U R2 F2 U B' D2 R L' U2 F B' R' U' R D' R B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 39.11,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "R2 D2 B' D2 F U2 B F' D' L2 B' L2 D' B' D B' D' L' F' R U' F L F2 B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.64,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "L2 B' R' L' D' B' R' B' L D F' D' U' B' U2 R' F2 U' D B2 U' L2 R2 D2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 27.69,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "D' B' R2 L' F2 D' U' B F' D2 F' D U' R' F D' L F L' F' U2 F' R F2 R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 27.2,
+        "date": "2024-08-14",
+        "link": "",
+        "scramble": "D' L' U F D B' F R L' D R2 L B' U2 L' F' U' F R' D2 U' R2 B2 F' R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 36.81,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "D' R' U' B2 L2 D' F' U F D' L' R D' R2 B2 L D U' B' L' B D B' R' B2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 33.02,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "F' B2 R' D L' F L' D' R U' R L' D2 B' D F B2 D' R' B' D' U L F2 B'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.7,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "B2 R2 B' R2 F D2 U' B' L F R' B' D' B U' F' B' D R2 D L2 F L B' L",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.25,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "L' B2 F D' L' D2 F2 R D' U' F' R D' U R2 F' B' U' B' F2 D' B F' U L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.01,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "D2 L' D' R' U B2 F' D F' B' R2 B U' L2 R2 F' R' B R' F' B2 D' R2 U' F'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.98,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "R' B' U' R F2 L2 U2 B F2 L' F' D' R2 L D2 B' F' U F' R2 D2 R' F R F2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 34.2,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "F' D R' F B2 R' U L' R' F B D' R2 F R L D2 B' F' D R' B' F' D' R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.31,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "R' F2 D' R2 D' R F' L2 F' U2 B' R2 U L' B' U' R' D' R2 D2 L' F' R' U' D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.41,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "R2 B D' L' D R' U' F2 B2 D' F' B' R F2 U' L U' R' D' R2 B2 R D B L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.32,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "D L F' B D' F' R' B2 U2 F' D' F2 B2 R' D' R2 D2 F' D U F R' D' B' R2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 31.17,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "F' B2 R2 D' U2 B U L F U' R' B2 R2 D' F' R F2 L2 D' B' F U' L' R2 U",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.4,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "R' B' R2 F2 D' F' U2 R' D2 L' B2 R2 D L' F2 B D' R' D F B' D' R2 L D2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.07,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "F2 L R' U2 L' B R' D F R' B2 F' R2 U' D R' D' B' D' B' F R L' F L'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 34.23,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "B U B D R2 F' U' F' B2 D B' D' L D U' B F' R U2 R F2 B' R U' R2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 29.3,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "F' R' F' R2 L' F' B2 D L R2 U' D' R' D2 R' U' B' U' L' B' R' B' D2 U' R'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 30.81,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "B U' B' D2 B' R L' U2 R' D B' R' F B' D' B' R' L2 D' L2 U' R' B D' L2",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 35.42,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "B2 L' U2 F' U' D2 R' F' R2 D F' R' D2 B' L D' R2 B' F' D B' R' B U' B",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 35.24,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "U' B' D2 F' R' F R2 D' F' B2 R' B' D' U' B' F2 U2 R' B F' D' R D F' U'",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 28.44,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "B2 F2 R2 B' R2 D2 L2 D L' F R' D' B' F R F' R2 B' R' U2 D' R' D' U L",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    },
+    {
+        "time": 26.6,
+        "date": "2024-08-16",
+        "link": "",
+        "scramble": "B F2 U2 L' D2 B D' U2 R' B F' R2 F2 U L2 D' R B' D F B' U' F2 L D",
+        "method": "CFOP",
+        "firstFace": "white",
+        "notes": [
+            "Part of a session."
+        ]
+    }
+]

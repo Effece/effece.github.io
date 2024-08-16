@@ -1,0 +1,46 @@
+#listTable {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.situation {
+	width: auto;
+}
+
+#listTable > thead {
+	border: 5px solid;
+	border-color: orange;
+	color: yellow;
+	line-height: 200%;
+	font-weight: bolder;
+}
+
+#sepTable {
+	opacity: 0;
+	line-height: 10px;
+	border: none !important;
+}
+
+#list > tr {
+	border: 5px solid;
+	border-color: yellow;
+}
+
+#list > tr > td {
+	border: 1px solid;
+	border-color: yellow;
+}
+
+#list select {
+	background-color: orange;
+	color: white;
+	font: inherit;
+	border-radius: 5px;
+	height: fill;
+	margin-bottom: 10px;
+}
+
+#list span {
+	float: left;
+	text-align: left;
+}

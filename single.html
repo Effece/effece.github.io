@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Single submission - Rubik's Cube</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "style.css">
+		<link rel = "stylesheet" href = "columns.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "adderForm.css">
+	</head>
+	<body>
+		<header></header>
+		<div class = "page">
+			<div class = "col links trimmed" id = "links" onclick = "linkColumnClick(this);">
+				<h2><span>General</span></h2>
+				<a href = "index.html">Main page</a>
+				<a href = "times.html">Times</a>
+				<a href = "algs.html">Algorithms</a>
+				<a href = "collection.html">Collection</a>
+				<h2><span>Submit</span></h2>
+				<a href = "single.html">3x3 single</a>
+				<a href = "session.html">3x3 session</a>
+				<h2><span>Performances</span></h2>
+				<a href = "best.html">Best times</a>
+				<a href = "times.html">All times</a>
+				<a href = "practice.html">Practice</a>
+				<a href = "videos.html">Videos</a>
+				<h2><span>Algorithms</span></h2>
+				<a href = "algs.html">All algorithms</a>
+				<a href = "cfop.html">CFOP</a>
+				<a href = "oll.html">OLL</a>
+				<a href = "pll.html">PLL</a>
+				<a href = "addalg.html">Add an algorithm</a>
+				<a href = "modifyalg.html">Modify an algorithm</a>
+				<h2><span>Other</span></h2>
+				<a href = "evals.html">Evaluations</a>
+				<a href = "algstream.html">Recording</a>
+				<a href = "upcoming.html">Upcoming features</a>
+				<h2><span>External links</span></h2>
+				<a class = "external" href = "https://www.worldcubeassociation.org/">World Association</a>
+				<a href = "https://speedcubedb.com/">Database</a>
+				<a class = "external" href = "https://speedcubing.com/CubingAlgs.html">Speed Cubing</a>
+				<a class = "external" href = "https://jperm.net/">J Perm</a>
+				<a class = "external" href = "https://drive.google.com/file/d/1nzAXYUWZJ6H2wIOXaHdWXep3W57tArbR/view">F2L sheet</a>
+				<a class = "external" href = "https://speedcubeshop.com/">Speed Cube Shop</a>
+				<a class = "external" href = "https://www.thecubicle.com/">The Cubicle</a>
+				<a class = "external" href = "https://www.gancube.com/">GAN</a>
+				<a class = "external" href = "http://moyucube.com/en/">Moyu</a>
+				<a class = "external" href = "https://www.variantes.com/19-cubes-magiques-boutique">Variantes</a>
+				<a class = "external" href = "https://docs.google.com/spreadsheets/d/1gNYFoNbJ4uLN5BVQnC_RJE8jsIAGRgoayCs05naaJlI/edit?usp=sharing">Personal sheet</a>
+			</div>
+			<div class = "col overall untrimmed" id = "overall">
+				<h1>Single time submissions</h1>
+				<p>Use this page to submit single times. Unknown informations can be left empty. Click the 'Add' button for each time, then download once you're finished.</p>
+				<form name = "submitter" action = "single.html" method = "post">
+					<label>Time:</label><input type = "number" name = "time" step = "0.01" /><br>
+					<label>Date:</label><input type = "date" name = "date" /><br>
+					<label>Video link:</label><input type = "text" name = "link" /><br>
+					<label>Scramble:</label><input type = "text" name = "scramble" /><br>
+					<label>Method:</label><input type = "text" name = "method" value = "CFOP" /><br>
+					<label>First face color:</label><input type = "text" name = "firstFace" value = "white" /><br>
+					<label>Additional informations:</label><textarea name = "additional"></textarea>
+					<input type = "button" class = "formButton" value = "Add" onclick = "submitFunc(false);" />
+					<input type = "button" class = "formButton" value = "Download new sheet" onclick = "download();" />
+				</form>
+			</div>
+		</div>
+		<script src = "links.js"></script>
+		<script src = "singleTimes.json"></script>
+		<script src = "singleSubmission.js"></script>
+		<!-- fast shortcut to submit multiple times -->
+		<script>
+			document.onkeydown = function(e) {
+				e = e || window.event;
+				e = e.which || e.keyCode;
+				if (e === 13) { // enter
+					submitFunc(false);
+					document.getElementsByName("time")[0].value = null;
+				}
+			};
+		</script>
+	</body>
+</html>

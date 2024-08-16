@@ -1,0 +1,12 @@
+#list > tr > th {
+	font-size: 40px;
+}
+
+input[type = "button"], input[type = "text"], input[type = "number"] {
+	width: 100%;
+	border-radius: 10px;
+	font: inherit;
+	font-size: 18px;
+	text-align: center;
+	background-color: orange;
+}

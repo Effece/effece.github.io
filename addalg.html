@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Add an algorithm - Rubik's Cube</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "style.css">
+		<link rel = "stylesheet" href = "columns.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "adderForm.css">
+		<link rel = "stylesheet" href = "face.css">
+	</head>
+	<body>
+		<header></header>
+		<div class = "page">
+			<div class = "col links trimmed" id = "links" onclick = "linkColumnClick(this);">
+				<h2><span>General</span></h2>
+				<a href = "index.html">Main page</a>
+				<a href = "times.html">Times</a>
+				<a href = "algs.html">Algorithms</a>
+				<a href = "collection.html">Collection</a>
+				<h2><span>Submit</span></h2>
+				<a href = "single.html">3x3 single</a>
+				<a href = "session.html">3x3 session</a>
+				<h2><span>Performances</span></h2>
+				<a href = "best.html">Best times</a>
+				<a href = "times.html">All times</a>
+				<a href = "practice.html">Practice</a>
+				<a href = "videos.html">Videos</a>
+				<h2><span>Algorithms</span></h2>
+				<a href = "algs.html">All algorithms</a>
+				<a href = "cfop.html">CFOP</a>
+				<a href = "oll.html">OLL</a>
+				<a href = "pll.html">PLL</a>
+				<a href = "addalg.html">Add an algorithm</a>
+				<a href = "modifyalg.html">Modify an algorithm</a>
+				<h2><span>Other</span></h2>
+				<a href = "evals.html">Evaluations</a>
+				<a href = "algstream.html">Recording</a>
+				<a href = "upcoming.html">Upcoming features</a>
+				<h2><span>External links</span></h2>
+				<a class = "external" href = "https://www.worldcubeassociation.org/">World Association</a>
+				<a href = "https://speedcubedb.com/">Database</a>
+				<a class = "external" href = "https://speedcubing.com/CubingAlgs.html">Speed Cubing</a>
+				<a class = "external" href = "https://jperm.net/">J Perm</a>
+				<a class = "external" href = "https://drive.google.com/file/d/1nzAXYUWZJ6H2wIOXaHdWXep3W57tArbR/view">F2L sheet</a>
+				<a class = "external" href = "https://speedcubeshop.com/">Speed Cube Shop</a>
+				<a class = "external" href = "https://www.thecubicle.com/">The Cubicle</a>
+				<a class = "external" href = "https://www.gancube.com/">GAN</a>
+				<a class = "external" href = "http://moyucube.com/en/">Moyu</a>
+				<a class = "external" href = "https://www.variantes.com/19-cubes-magiques-boutique">Variantes</a>
+				<a class = "external" href = "https://docs.google.com/spreadsheets/d/1gNYFoNbJ4uLN5BVQnC_RJE8jsIAGRgoayCs05naaJlI/edit?usp=sharing">Personal sheet</a>
+			</div>
+			<div class = "col overall untrimmed" id = "overall">
+				<h1>Add an algorithm</h1>
+				<p>Fill in the following form to suggest an algorithm. If the algorithm already exists, you can select which attributes you want to change after pressing a button.</p>
+				<form name = "adder" action = "algs.html" method = "post">
+					<label>Name:</label><input type = "text" name = "name" /><br>
+					<label>Other names:</label><input type = "text" name = "otherNames" /><input type = "text" name = "otherNames" /><input type = "text" name = "otherNames" /><br>
+					<label>Categories:</label><input type = "text" value = "CFOP" name = "categs" /><input type = "text" name = "categs" /><input type = "text" name = "categs" /><br>
+					<label>Algorithm:</label><input type = "text" name = "algorithm" />
+					<h2>Situation</h2>
+					<div id = "situationInput">
+						<div id = "face"></div>
+						<div id = "input"></div>
+						<div id = "buttons">
+							<input type = "button" value = "Reset inputs" onclick = "resetFaceInputs('yf');" /><br>
+							<input type = "button" value = "Empty inputs" onclick = "resetFaceInputs('');" /><br>
+							<input type = "button" value = "Reload" onclick = "loadFace();" />
+						</div>
+					</div>
+					<h2>Evaluation</h2>
+					<label>Learnt status:</label><input type = "range" value = "-1" min = "-1" max = "5" step = "1" name = "learnt" /><br>
+					<label title = "Do you like this algorithm? Are you likely to change it?">Algorithm:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evalg" /><br>
+					<label title = "Do you remember it well, overall?">Remembering:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evr" /><br>
+					<label title = "Can you do it without thinking about it?">Muscle memory:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evmm" /><br>
+					<label title = "Can you spell the algorithm?">Algorithm spelling:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evas" /><br>
+					<label title = "Can you do this algorithm blind?">Blindfolded:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evbf" /><br>
+					<label title = "Are you fast when performing this algorithm?">Speed:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evsp" /><br>
+					<label title = "Do you recognize this situation easily when it occurs?">Pattern recognition:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evpr" /><br>
+					<label title = "Do you understand what you are doing?">Understanding:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evu" /><br>
+					<label title = "Is this algorithm comfortable for your hands?">Good for the hands:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evgh" /><br>
+					<label title = "Can you imagine this algorithm mentally?">Head visualizing:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evhv" /><br>
+					<label title = "When you need to do it, are you confident you will succeed?">Confidence:</label><input type = "range" value = "-1" min = "-1" max = "10" step = "1" name = "evc" />
+					<h2>More</h2>
+					<label>Moves:</label><input type = "number" name = "moves" /><br>
+					<label>Cycle length:</label><input type = "number" name = "cycleLength" /><br>
+					<label>Mirror:</label><input type = "text" name = "mirror" /><br>
+					<label>Additional informations:</label><textarea name = "additional"></textarea>
+					<input type = "button" class = "formButton" value = "Add" onclick = "submitFunc(false);" />
+					<input type = "submit" text = "Download" onclick = "submitFunc(true);" />
+					<input type = "button" class = "formButton" value = "Download new sheet" onclick = "download();" />
+					<input type = "button" class = "formButton" value = "Sort algorithms" onclick = "sortAlgs();" />
+				</form>
+			</div>
+		</div>
+		<script src = "links.js"></script>
+		<script src = "algorithms.json"></script>
+		<script src = "algFunctions.js"></script>
+		<script src = "adderFunctions.js"></script>
+		<script>
+			resetFaceInputs('yf');
+			loadFace();
+		</script>
+	</body>
+</html>

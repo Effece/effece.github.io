@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>All times - Rubik's Cube</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "style.css">
+		<link rel = "stylesheet" href = "columns.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "performances.css">
+	</head>
+	<body>
+		<script src = "singleTimes.json"></script>
+		<script src = "sessionTimes.json"></script>
+		<header></header>
+		<div class = "page">
+			<div class = "col links trimmed" id = "links" onclick = "linkColumnClick(this);">
+				<h2><span>General</span></h2>
+				<a href = "index.html">Main page</a>
+				<a href = "times.html">Times</a>
+				<a href = "algs.html">Algorithms</a>
+				<a href = "collection.html">Collection</a>
+				<h2><span>Submit</span></h2>
+				<a href = "single.html">3x3 single</a>
+				<a href = "session.html">3x3 session</a>
+				<h2><span>Performances</span></h2>
+				<a href = "best.html">Best times</a>
+				<a href = "times.html">All times</a>
+				<a href = "practice.html">Practice</a>
+				<a href = "videos.html">Videos</a>
+				<h2><span>Algorithms</span></h2>
+				<a href = "algs.html">All algorithms</a>
+				<a href = "cfop.html">CFOP</a>
+				<a href = "oll.html">OLL</a>
+				<a href = "pll.html">PLL</a>
+				<a href = "addalg.html">Add an algorithm</a>
+				<a href = "modifyalg.html">Modify an algorithm</a>
+				<h2><span>Other</span></h2>
+				<a href = "evals.html">Evaluations</a>
+				<a href = "algstream.html">Recording</a>
+				<a href = "upcoming.html">Upcoming features</a>
+				<h2><span>External links</span></h2>
+				<a class = "external" href = "https://www.worldcubeassociation.org/">World Association</a>
+				<a href = "https://speedcubedb.com/">Database</a>
+				<a class = "external" href = "https://speedcubing.com/CubingAlgs.html">Speed Cubing</a>
+				<a class = "external" href = "https://jperm.net/">J Perm</a>
+				<a class = "external" href = "https://drive.google.com/file/d/1nzAXYUWZJ6H2wIOXaHdWXep3W57tArbR/view">F2L sheet</a>
+				<a class = "external" href = "https://speedcubeshop.com/">Speed Cube Shop</a>
+				<a class = "external" href = "https://www.thecubicle.com/">The Cubicle</a>
+				<a class = "external" href = "https://www.gancube.com/">GAN</a>
+				<a class = "external" href = "http://moyucube.com/en/">Moyu</a>
+				<a class = "external" href = "https://www.variantes.com/19-cubes-magiques-boutique">Variantes</a>
+				<a class = "external" href = "https://docs.google.com/spreadsheets/d/1gNYFoNbJ4uLN5BVQnC_RJE8jsIAGRgoayCs05naaJlI/edit?usp=sharing">Personal sheet</a>
+			</div>
+			<div class = "col overall untrimmed" id = "overall">
+				<h1>All times</h1>
+				<p>All my times are listed here, sorted by chronological order. They are separated between single times and session times, with good session times being more meaningful than single times since they account for consistency. Hover over a time to get more informations. Click on a time to be redirected to the corresponding video, if it exists. <b>Scrambles are done with white face on top and green face on front.</b> Check out my best times <a href = "best.html">here</a>.</p>
+				<img class = "marker" src = "marker.png" />
+				<h2>Singles</h2>
+				<table class = "leaderboard">
+					<thead>
+						<tr><th>Index</th><th>Date</th><th>Time</th><th>Scramble</th></tr>
+					</thead>
+					<tbody id = "singles">
+					</tbody>
+				</table>
+				<img class = "marker" src = "marker.png" />
+				<h2>Sessions</h2>
+				<table class = "leaderboard">
+					<thead>
+						<tr><th>Index</th><th>Date</th><th>Average</th><th>Times</th><th>Scrambles</th></tr>
+					</thead>
+					<tbody id = "sessions">
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<script src = "links.js"></script>
+		<script src = "fillTimes.js"></script>
+		<script>
+			fill(false);
+		</script>
+	</body>
+</html>
