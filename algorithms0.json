@@ -1,0 +1,27 @@
+var algs = {
+	"T": {
+		"name": "T",
+		"alternativeNames": ["T perm"],
+		"categories": ["CFOP", "OLL", "Adjacent Swaps"],
+		"situation": ["yf rw bn", "yf bn", "yf on ge", "yf ow", "yf", "yf re", "yf rw gs", "yf gs", "yf be os"],
+		"mainAlgorithm": ["(R U R' U') (R' F R2) (U' R' U') (R U R' F')"],
+		"otherAlgorithms": [],
+		"learnt": 5,
+		"evaluation": {
+			"alg": 10,
+			"r": 10,
+			"mm": 10,
+			"as": 3,
+			"bf": 10,
+			"sp": 8,
+			"pr": 10,
+			"u": 8,
+			"gh": 9,
+			"c": 10
+		},
+		"moves": 14,
+		"cycleLength": 2,
+		"mirror": "T",
+		"notes": ["Same two steps as Y.", "Main algorithm for adjacent corner swaps."]
+	}
+}
