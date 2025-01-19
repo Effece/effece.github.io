@@ -5,7 +5,10 @@ function corrLigne(txt) {
 
 document.getElementById("ch1").addEventListener('keyup', (event) => {
 	if (event.key !== "Enter") return;
+	ch1event();
+});
 
+function ch1event() {
 	let mclc = mcalc();
 
 	let txt = document.getElementById("ch1").value;
@@ -57,27 +60,33 @@ document.getElementById("ch1").addEventListener('keyup', (event) => {
 	}
 
 	setMcalc(mclc);
+}
+
+document.getElementById("ch2").addEventListener('keyup', (event) => {
+	if (event.key !== "Enter") return;
+	ch2event();
 });
 
-document.getElementById("ch2").addEventListener('on_click', (event) => {
-	if (event.key === "Enter") return;
-
+function ch2event() {
 	let newN = document.getElementById("ch2").value;
 	if (newN < 1) return;
 
 	setN(newN);
 	reset();
+}
+
+document.getElementById("ch3").addEventListener("keyup", (event) => {
+	if (event.key !== "Enter") return;
+	ch3event();
 });
 
-document.getElementById("ch3").addEventListener("on_click", (event) => {
-	if (event.key === "Enter") return;
-
+function ch3event() {
 	let newLambda = document.getElementById("ch3").value;
 	if (newLambda < 1) return;
 
 	setLambdaMax(newLambda);
 	reset();
-})
+}
 
 function verifier() {
 	let nn = n();
