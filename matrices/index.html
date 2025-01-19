@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<meta charset = "utf-8">
+		<title>Inversion de matrices</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Inversion de matrices</h1>
+		<script src = "globales.js"></script>
+		<script src = "matrice.js"></script>
+		<script src = "operations.js"></script>
+		<script src = "operationselementaires.js"></script>
+		<script src = "melange.js"></script>
+		<script src = "graph.js"></script>
+		<div class = "matrices">
+			<div id = "canvas" class = "matrice"></div>
+			<div id = "anticanvas" class = "matrice"></div>
+		</div>
+		<div class = "inputs">
+			<button onclick = "reset()">Nouvelle matrice</button><br>
+			<label>Ligne de commande :</label><input type = "text" id = "ch1" /><br>
+			<label>Changer de taille :</label><input type = "number" id = "ch2" /><br>
+			<label>Changer de lambda maximal :</label><input type = "number" id = "ch3" />
+		</div>
+		<div class = "tests">
+			<h2>Vérification de la matrice obtenue</h2>
+			<div class = "submatrices">
+				<div id = "testvas" class = "matrice"></div>
+				<div id = "resvas" class = "matrice"></div>
+			</div>
+			<button onclick = "verifier()">Vérifier</button>
+		</div>
+		<script src = "instructions.js"></script>
+		<script>
+			reset();
+		</script>
+	</body>
+</html>
