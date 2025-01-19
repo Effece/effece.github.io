@@ -60,7 +60,7 @@ document.getElementById("ch1").addEventListener('keyup', (event) => {
 });
 
 document.getElementById("ch2").addEventListener('on_click', (event) => {
-	if (event.key !== "Enter") return;
+	if (event.key === "Enter") return;
 
 	let newN = document.getElementById("ch2").value;
 	if (newN < 1) return;
@@ -70,7 +70,7 @@ document.getElementById("ch2").addEventListener('on_click', (event) => {
 });
 
 document.getElementById("ch3").addEventListener("on_click", (event) => {
-	if (event.key !== "Enter") return;
+	if (event.key === "Enter") return;
 
 	let newLambda = document.getElementById("ch3").value;
 	if (newLambda < 1) return;
