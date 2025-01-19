@@ -59,7 +59,7 @@ document.getElementById("ch1").addEventListener('keyup', (event) => {
 	setMcalc(mclc);
 });
 
-document.getElementById("ch2").addEventListener('click', (event) => {
+document.getElementById("ch2").addEventListener('on_click', (event) => {
 	if (event.key !== "Enter") return;
 
 	let newN = document.getElementById("ch2").value;
@@ -69,7 +69,7 @@ document.getElementById("ch2").addEventListener('click', (event) => {
 	reset();
 });
 
-document.getElementById("ch3").addEventListener("click", (event) => {
+document.getElementById("ch3").addEventListener("on_click", (event) => {
 	if (event.key !== "Enter") return;
 
 	let newLambda = document.getElementById("ch3").value;
