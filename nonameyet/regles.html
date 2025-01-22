@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jeu Sans Nom - Règles</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "overall.css">
+		<link rel = "stylesheet" href = "links.css">
+		<!--<script src = "https://code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+			$(function() {
+				$('#links2').load('liens.html');
+			});
+		</script>-->
+	</head>
+	<body>
+		<header></header>
+		<div class = "col" id = "links">
+			<h2 class = "sectionLien"><span>Général</span></h2>
+			<a class = "lien" href = "index.html">Page principale</a>
+			<a class = "lien" href = "regles.html">Règles du jeu</a>
+			<a class = "lien" href = "ajouts.html">Nouveautés à venir</a>
+			<a class = "lien" href = "genTableau.html">Générer un tableau</a>
+			<h2 class = "sectionLien"><span>Jouer</span></h2>
+			<a class = "lien" href = "jeu.html">Mode standard</a>
+			<a class = "lien" href = "">Sans classement</a>
+			<a class = "lien" href = "contreOrdinateur.php">Affronter l'ordinateur</a>
+			<a class = "lien" href = "multijoueurLocal.php">Multijoueur local</a>
+			<a class = "lien" href = "personnalise.html">Personnalisé</a>
+			<a class = "lien" href = "">Observer une partie</a>
+			<h2 class = "sectionLien"><span>Individuel</span></h2>
+			<a class = "lien" href = "connexion.html">Connexion</a>
+			<a class = "lien" href = "connexion.html">Inscription</a>
+			<h2 class = "sectionLien"><span>Classement</span></h2>
+			<a class = "lien" href = "">Dans le monde</a>
+			<a class = "lien" href = "">Durant la semaine</a>
+			<h2 class = "sectionLien"><span>Autre</span></h2>
+			<a class = "lien" href = "https://google.com">Test de microphone</a>
+			<a class = "lien" href = "formulaireInutile.html">Envoyer un formulaire</a>
+			<a class = "lien" href = "emploiDuTemps.html">Voir un emploi du temps</a>
+		</div>
+		<div class = "col" id = "overall">
+			<h1>Règles du <b>Jeu Sans Nom</b></h1>
+			<h2>Règles générales</h2>
+			<p>Le jeu sans nom se joue à deux joueurs. Il se déroule sur un plateau carré, de côté de longueur 5 ou 8. Toutes les cases sont des carrés, de même taille.<br>
+			   Les deux joueurs commencent à des coins opposés. Ils disposent d'une seule et unique pièce, qui peut se mouvoir sur toutes les cases qui lui sont adjacentes.<br>
+		       Chacun leur tour, les joueurs déplacent leur pièce d'après ses mouvements autorisés. Il est impossible de revenir sur une case déjà visitée auparavant (indépendamment du joueur y ayant été).</p>
+		    <img class = "separateur" src = "separateur2.png" /> <!-- j'hésite, devrais-je mettre un séparateur entre le h1 et le premier h2 ? ... -->
+		    <h2>Objectif</h2>
+		    <p>La première possibilité pour gagner est de toucher son adversaire, c'est-à-dire se rendre sur la case sur laquelle il se trouve.<br>
+		       Un joueur perd s'il se retrouve entouré de cases déjà visitées. De ce fait, il est possible de gagner en bloquant le joueur adverse.</p>
+			<img class = "separateur" src = "separateur2.png" />
+			<h2>Variations</h2>
+			<p>Les conditions peuvent être modifiées pour changer l'expérience de jeu.<br>
+			   La taille du plateau peut varier, et ne plus être un carré ; vous pouvez jouer sur un plateau rectangulaire. Un plateau aux cases hexagonales est envisagé.<br>
+			   Le nombre de joueurs pourra varier. Pour l'instant, il n'est possible d'y jouer qu'à deux joueurs.<br>
+			   Les modes de déplacements peuvent changer. Le jeu originel offre les déplacements sur les cases adjacentes, mais vous pouvez choisir de jouer sur toute une rangée, sur certaines cases proches...</p>
+			<img class = "separateur" src = "separateur2.png" />
+			<h2>Modes de déplacement</h2>
+			<p>Le jeu propose cinq modes de déplacement. Les cinq premiers sont basés sur les déplacements aux Echecs.<br>
+			   Par défaut, le Roi : vous ne pouvez aller que sur les cases adjacentes (en diagonale y compris).<br>
+			   La Tour : vous vous déplacez à votre gré sur toute votre ligne ou votre colonne.<br>
+			   Le Fou : cette fois, sur vos diagonales ; attention de mettre les joueurs sur des cases de même parité pour permettre un jeu intéressant !<br>
+			   La Reine : une combinaison de la Tour et du Fou.<br>
+			Le Cavalier : des déplacements de deux cases sur un axe puis une sur un autre axe.</p>
+		</div>
+	</body>
+</html>

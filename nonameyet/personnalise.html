@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jeu Sans Nom - Multijoueur local</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "overall.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "personnalise.css">
+		<!--<script src = "https://code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+			$(function() {
+				$('#links2').load('liens.html');
+			});
+		</script>-->
+	</head>
+	<body>
+		<header></header>
+		<div class = "col" id = "links">
+			<h2 class = "sectionLien"><span>Général</span></h2>
+			<a class = "lien" href = "index.html">Page principale</a>
+			<a class = "lien" href = "regles.html">Règles du jeu</a>
+			<a class = "lien" href = "ajouts.html">Nouveautés à venir</a>
+			<a class = "lien" href = "genTableau.html">Générer un tableau</a>
+			<h2 class = "sectionLien"><span>Jouer</span></h2>
+			<a class = "lien" href = "jeu.html">Mode standard</a>
+			<a class = "lien" href = "">Sans classement</a>
+			<a class = "lien" href = "contreOrdinateur.php">Affronter l'ordinateur</a>
+			<a class = "lien" href = "multijoueurLocal.php">Multijoueur local</a>
+			<a class = "lien" href = "personnalise.html">Personnalisé</a>
+			<a class = "lien" href = "">Observer une partie</a>
+			<h2 class = "sectionLien"><span>Individuel</span></h2>
+			<a class = "lien" href = "connexion.html">Connexion</a>
+			<a class = "lien" href = "connexion.html">Inscription</a>
+			<h2 class = "sectionLien"><span>Classement</span></h2>
+			<a class = "lien" href = "">Dans le monde</a>
+			<a class = "lien" href = "">Durant la semaine</a>
+			<h2 class = "sectionLien"><span>Autre</span></h2>
+			<a class = "lien" href = "https://google.com">Test de microphone</a>
+			<a class = "lien" href = "formulaireInutile.html">Envoyer un formulaire</a>
+			<a class = "lien" href = "emploiDuTemps.html">Voir un emploi du temps</a>
+		</div>
+		<div class = "col" id = "overall">
+			<form action = "multijoueurLocal.php" name = "regles" method = "GET">
+			<!--
+			J'ai préféré utiliser un GET ici.
+			D'une part pour exploiter les deux types de formulaires, d'autre part pour permettre à l'utilisateur de voir et configurer ses règles plus facilement.
+			-->
+				<h2 class = "descriptif">Taille de la zone</h2>
+				<div id = "canSettings">
+					<input type = "range" id = "width" min = "3" max = "9" value = "8" onload = "updCan(this)" onchange = "updCan(this)" name = "width" />
+					<input type = "range" id = "height" min = "3" max = "9" value = "8" onload = "updCan(this)" onchange = "updCan(this)" name = "height" />
+					<div id = "canSize">
+						<div id = "can"></div>
+					</div>
+				</div>
+				<div>
+					<h2 class = "descriptif">Joueur 1</h2>
+					<input type = "range" class = "x" min = "1" max = "8" value = "1" step = "1" name = "p1x" id = "p1x" />
+					<input type = "range" min = "1" max = "8" class = "y" value = "1" step = "1" name = "p1y" id = "p1y" />
+				</div>
+				<div>
+					<h2 class = "descriptif">Joueur 2</h2>
+					<input type = "range" class = "x" min = "1" max = "8" value = "8" step = "1" name = "p2x" id = "p2x" />
+					<input type = "range" min = "1" max = "8" class = "y" value = "8" step = "1" name = "p2y" id = "p2y" />
+				</div>
+				<div>
+					<h2 class = "descriptif">Mode de jeu</h2><input type = "text" name = "piece" id = "piece" value = "Roi" placeholder = "Roi, Tour, Fou, Reine, Cavalier" />
+				</div>
+				<input type = "button" value = "Jouer en multijoueur local" onclick = "jouerForm()" /> <!-- peut-être changer pour un button ? -->
+				<input type = "button" value = "Jouer contre l'ordinateur"  onclick = "document.regles.action = 'contreOrdinateur.php'; jouerForm();" />
+			</form>
+		</div>
+		<script src = "personnalise.js"></script>
+	</body>
+</html>

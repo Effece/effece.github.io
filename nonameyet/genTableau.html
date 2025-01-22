@@ -1,0 +1,69 @@
+<!--
+Page assez similaire à personnalise.html, cependant ici il est possible de placer des croix et autant de joueurs que l'on veut, mais impossible de jouer.
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jeu Sans Nom</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "overall.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "genTableau.css">
+		<!--<script src = "https://code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+			$(function() {
+				$('#links2').load('liens.html');
+			});
+		</script>-->
+	</head>
+	<body>
+		<header></header>
+		<div class = "col" id = "links">
+			<!--<div id = "links2"></div>-->
+			<h2 class = "sectionLien"><span>Général</span></h2>
+			<a class = "lien" href = "index.html">Page principale</a>
+			<a class = "lien" href = "regles.html">Règles du jeu</a>
+			<a class = "lien" href = "ajouts.html">Nouveautés à venir</a>
+			<a class = "lien" href = "genTableau.html">Générer un tableau</a>
+			<h2 class = "sectionLien"><span>Jouer</span></h2>
+			<a class = "lien" href = "jeu.html">Mode standard</a>
+			<a class = "lien" href = "">Sans classement</a>
+			<a class = "lien" href = "contreOrdinateur.php">Affronter l'ordinateur</a>
+			<a class = "lien" href = "multijoueurLocal.php">Multijoueur local</a>
+			<a class = "lien" href = "personnalise.html">Personnalisé</a>
+			<a class = "lien" href = "">Observer une partie</a>
+			<h2 class = "sectionLien"><span>Individuel</span></h2>
+			<a class = "lien" href = "connexion.html">Connexion</a>
+			<a class = "lien" href = "connexion.html">Inscription</a>
+			<h2 class = "sectionLien"><span>Classement</span></h2>
+			<a class = "lien" href = "">Dans le monde</a>
+			<a class = "lien" href = "">Durant la semaine</a>
+			<h2 class = "sectionLien"><span>Autre</span></h2>
+			<a class = "lien" href = "https://google.com">Test de microphone</a>
+			<a class = "lien" href = "formulaireInutile.html">Envoyer un formulaire</a>
+			<a class = "lien" href = "emploiDuTemps.html">Voir un emploi du temps</a>
+		</div>
+		<div class = "col" id = "overall">
+			<h1>Générer un tableau</h1>
+			<form action = "receveur.php" name = "genTableau" method = "get"> <!-- envoyer sur receveur.php -->
+				<h2 class = "descriptif">Taille de la zone</h2>
+				<div id = "canSettings">
+					<input type = "range" id = "width" min = "3" max = "9" value = "8" onload = "updCan(this)" onchange = "updCan(this)" name = "width" />
+					<input type = "range" id = "height" min = "3" max = "9" value = "8" onload = "updCan(this)" onchange = "updCan(this)" name = "height" />
+					<div id = "canSize">
+						<div id = "can"></div>
+					</div>
+				</div>
+				<h2 class = "descriptif">Elements en place</h2>
+				<input type = "range" id = "presets" min = "0" max = "9" value = "2" onload = "updNbPresets(this)" onchange = "updNbPresets(this)" />
+				<div id = "presets">
+					<div id = "jevaisdisparaitre"></div>
+				</div>
+				<input type = "submit" value = "Générer" />
+			</form>
+		</div>
+		<script src = "genTableau.js"></script>
+	</body>
+</html>

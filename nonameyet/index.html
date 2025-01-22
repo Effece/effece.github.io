@@ -1,0 +1,79 @@
+<!--
+Ancienne page principale avant l'implémentation du PHP dessus (voir index.php). Les pages redirigeant ici sont erronées...
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jeu Sans Nom</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "overall.css">
+		<link rel = "stylesheet" href = "links.css">
+		<link rel = "stylesheet" href = "indexStyle.css">
+		<link rel = "stylesheet" href = "articles.css">
+		<!--
+		<script src = "https://code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+			$(function() {
+				$('#links2').load('liens.html');
+			});
+		</script>
+		J'ai essayé d'implémenter jQuery sur toutes les pages afin de charger le même lot de liens dans la colonne de gauche (afin de n'avoir qu'à les rédiger une fois).
+		Cependant il me faut passer sur serveur pour que l'accès à des fichiers extérieurs soit autorisé, j'ai donc préféré garder la version à actualiser manuellement.
+		Sur les pages PHP, j'ai pu simplifier en utilisant INCLUDE.
+		-->
+	</head>
+	<body>
+		<header></header>
+		<div class = "col" id = "links">
+			<!--<div id = "links2"></div>-->
+			<h2 class = "sectionLien"><span>Général</span></h2>
+			<a class = "lien" href = "index.html">Page principale</a>
+			<a class = "lien" href = "regles.html">Règles du jeu</a>
+			<a class = "lien" href = "ajouts.html">Nouveautés à venir</a>
+			<a class = "lien" href = "genTableau.html">Générer un tableau</a>
+			<h2 class = "sectionLien"><span>Jouer</span></h2>
+			<a class = "lien" href = "jeu.html">Mode standard</a>
+			<a class = "lien" href = "">Sans classement</a>
+			<a class = "lien" href = "contreOrdinateur.php">Affronter l'ordinateur</a>
+			<a class = "lien" href = "multijoueurLocal.php">Multijoueur local</a>
+			<a class = "lien" href = "personnalise.html">Personnalisé</a>
+			<a class = "lien" href = "">Observer une partie</a>
+			<h2 class = "sectionLien"><span>Individuel</span></h2>
+			<a class = "lien" href = "connexion.html">Connexion</a>
+			<a class = "lien" href = "connexion.html">Inscription</a>
+			<h2 class = "sectionLien"><span>Classement</span></h2>
+			<a class = "lien" href = "">Dans le monde</a>
+			<a class = "lien" href = "">Durant la semaine</a>
+			<h2 class = "sectionLien"><span>Autre</span></h2>
+			<a class = "lien" href = "https://google.com">Test de microphone</a>
+			<a class = "lien" href = "formulaireInutile.html">Envoyer un formulaire</a>
+			<a class = "lien" href = "emploiDuTemps.html">Voir un emploi du temps</a>
+		</div>
+		<div class = "col" id = "overall">
+			<h1>Bienvenue sur le <b>Jeu Sans Nom</b></h1>
+			<p>Le <b>Jeu Sans Nom</b>, comme son nom ne l'indique pas, est un jeu de stratégie. Il est conçu pour être joué à deux, sur un plateau de forme carrée et dont les cases sont des carrés de même taille. Pour plus de détails, consultez <a class = "innerLien" href = "regles.html">les règles</a>.</p>
+			<img class = "separateur" src = "separateur2.png" />
+			<h1>Actualité</h1>
+			<form id = "actu" name = "actualite">
+				<input class = "actuCls" type = "text" placeholder = "Titre" id = "actTitre" />
+				<!--<input class = "actuCls" type = "text" placeholder = "Actualité" id = "actCont" />-->
+				<textarea class = "actuCls" placeholder = "Actualité" id = "actCont" maxlength = 1000></textarea>
+				<input class = "actuCls" type = "text" placeholder = "Auteur" id = "actAuteur" value = "Anonyme" />
+				<!--<input class = "actuCls" type = "submit" value = "Envoyer" onclick = "ajtActu()" />-->
+				<input class = "actuCls" type = "button" value = "Envoyer" onclick = "ajtActu()" />
+			</form>
+			<!--
+			Ici, il n'y a pas d'intérêt à en avoir fait un formulaire, puisqu'il n'est pas utilisé sous ce rôle. Cependant, il est utile dans la version PHP de la page.
+			Seules les actualités côté client sont changées sur cette page.
+			-->
+			<div id = "actualites"><p id = "modif"></p></div>
+			<img class = "separateur" src = "separateur2.png" />
+			<h1>Documents consultables</h1>
+			<p>Ah, il n'y a rien (pour l'instant...).</p>
+		</div>
+		<script src = "mainPage.js"></script>
+		<!--<script> document.getElementById("links").style.height = document.getElementById("overall").style.height; </script>-->
+	</body>
+</html>

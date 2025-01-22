@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jeu Sans Nom - Formulaire</title>
+		<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<link rel = "stylesheet" href = "overall.css">
+		<link rel = "stylesheet" href = "links.css">
+		<script src = "https://code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+			$(function() {
+				$('#links2').load('liens.html');
+			});
+		</script>
+	</head>
+	<body onload = "charge()">
+		<header></header>
+		<div class = "col" id = "links">
+			<h2 class = "sectionLien"><span>Général</span></h2>
+			<a class = "lien" href = "index.html">Page principale</a>
+			<a class = "lien" href = "regles.html">Règles du jeu</a>
+			<a class = "lien" href = "ajouts.html">Nouveautés à venir</a>
+			<a class = "lien" href = "genTableau.html">Générer un tableau</a>
+			<h2 class = "sectionLien"><span>Jouer</span></h2>
+			<a class = "lien" href = "jeu.html">Mode standard</a>
+			<a class = "lien" href = "">Sans classement</a>
+			<a class = "lien" href = "contreOrdinateur.php">Affronter l'ordinateur</a>
+			<a class = "lien" href = "multijoueurLocal.php">Multijoueur local</a>
+			<a class = "lien" href = "personnalise.html">Personnalisé</a>
+			<a class = "lien" href = "">Observer une partie</a>
+			<h2 class = "sectionLien"><span>Individuel</span></h2>
+			<a class = "lien" href = "connexion.html">Connexion</a>
+			<a class = "lien" href = "connexion.html">Inscription</a>
+			<h2 class = "sectionLien"><span>Classement</span></h2>
+			<a class = "lien" href = "">Dans le monde</a>
+			<a class = "lien" href = "">Durant la semaine</a>
+			<h2 class = "sectionLien"><span>Autre</span></h2>
+			<a class = "lien" href = "https://google.com">Test de microphone</a>
+			<a class = "lien" href = "formulaireInutile.html">Envoyer un formulaire</a>
+			<a class = "lien" href = "emploiDuTemps.html">Voir un emploi du temps</a>
+		</div>
+		<div class = "col" id = "overall">
+			<form name = "formulaireTresIntule" method = "POST" action = "https://get-vs-post.000webhostapp.com/index.php">
+				<input type = "text" placeholder = "Texte inutile" name = "1" />
+				<input type = "text" placeholder = "Texte pas pas utile" name = "2" />
+				<input type = "text" placeholder = "Texte n'ayant pas d'utilité" name = "3" />
+				<input type = "text" placeholder = "Text without purpose" name = "4" />
+				<input type = "button" value = "Envoyer un formulaire inutile" onclick = "document.formulaireTresInutile.submit()" />
+			</form>
+		</div>
+		<script src = "formulaireInutile.js"></script>
+	</body>
+</html>

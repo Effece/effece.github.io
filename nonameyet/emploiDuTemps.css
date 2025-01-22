@@ -1,0 +1,9 @@
+td {
+	width: 20%;
+	height: 30px;
+	text-align: center;
+}
+
+td[rowspan = "2"] {
+	height: 60px;
+}

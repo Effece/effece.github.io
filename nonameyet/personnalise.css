@@ -1,0 +1,53 @@
+.descriptif {
+	display: block;
+}
+
+#canSettings {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#width {
+	width: 400px;
+	height: 1%;
+	margin-left: 2%;
+}
+
+#height {
+	-webkit-appearance: slider-vertical;
+	display: inline;
+	float: left;
+	width: 1%;
+	height: 400px;
+	margin-right: 2%;
+	/flex-direction: column-reverse;
+}
+
+#canSize {
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin-left: 2%;
+	background-color: grey;
+	border-radius: 2%;
+	padding: 0;
+}
+
+#can {
+	background-color: white;
+	border-radius: inherit;
+	position: absolute;
+	margin: 0;
+}
+
+.x {
+	width: 100px;
+	display: inline;
+}
+
+.y {
+	//-webkit-appearance: slider-vertical;
+	//height: 100px;
+	width: 100px;
+	display: inline;
+}

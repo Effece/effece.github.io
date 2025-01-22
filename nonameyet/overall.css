@@ -1,0 +1,123 @@
+body {
+	background-color: #00005B;
+	/*background-image: url("https://wallpaperaccess.com/full/44211.jpg");*/
+	background-image: url("bg.jpg");
+	background-size: 100%;
+	color: white;
+	font-family: "CustComfortaa", sans-serif;
+	height: 100%;
+}
+
+header {
+	background-image: url("banderole.png");
+	background-size: 100%;
+	background-position: center;
+	height: 100px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-top: 0.1%;
+	margin-right: 0.1%;
+	margin-left: 0.1%;
+}
+
+.col {
+	display: inline-block;
+	background-color: #00008B;
+	border-radius: 20px;
+	padding: 20px;
+	opacity: 80%;
+	/height: 1000px;
+	align-content: start;
+	margin: 0.1%;
+	margin-bottom: 0.5%;
+}
+
+#links {
+	width: 20%;
+}
+
+#overall {
+	width: 72%;
+	float: right;
+	height: auto;
+}
+
+.separateur {
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	margin: 0px;
+	margin-bottom: 5px;
+	font-family: "CustRicordi", sans-serif;
+	font-size: 20px;
+	border-width: 10px;
+	border-radius: 10px;
+	border-color: red;
+}
+
+h2 {
+	font-size: 16px;
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+	margin-bottom: 5px;
+	text-justify: distribute;
+}
+
+form {
+	width: 100%;
+}
+
+input {
+	display: block;
+	background-color: dodgerblue;
+	border-radius: 8px;
+	border-color: black;
+	width: inherit;
+	color: inherit;
+	font-family: "Lucida Console", Regular;
+}
+
+input[type = "submit"], input[type = "button"] {
+	width: 30%;
+	margin: 0 auto;
+	background-color: MediumSeaGreen;
+	font-family: inherit;
+	color: black;
+}
+
+input::placeholder {
+	color: white;
+	opacity: 50%;
+}
+
+textarea {
+	display: block;
+	background-color: dodgerblue;
+	border-radius: 8px;
+	border-color: black;
+	width: inherit;
+	color: inherit;
+	height: 120px;
+	resize: none;
+}
+
+textarea::placeholder {
+	color: white;
+	opacity: 50%;
+}
+
+@font-face {
+	font-family: "CustComfortaa";
+	src: url("Comfortaa-Light.ttf");
+}
+
+@font-face {
+	font-family: "CustRicordi";
+	src: url("TT Ricordi Greto Trial Regular.ttf");
+}

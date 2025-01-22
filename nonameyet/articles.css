@@ -1,0 +1,20 @@
+.article {
+	width: inherit;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.article h2 {
+	padding-left: 10px;
+}
+
+.auteur {
+	text-align: right;
+	color: lightgrey;
+	font-style: italic;
+}

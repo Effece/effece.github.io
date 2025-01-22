@@ -1,0 +1,54 @@
+table {
+	aspect-ratio: 1 / 1;
+	height: 400px;
+}
+
+tbody {
+	width: inherit;
+}
+
+tr {
+}
+
+td {
+}
+
+.case {
+	aspect-ratio: 1 / 1;
+	width: 100%;
+	background-color: lightgrey;
+}
+
+.case:hover {
+	filter: brightness(50%);
+}
+
+.croix {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Saint_Andrew%27s_cross_black.svg/1200px-Saint_Andrew%27s_cross_black.svg.png");
+	background-size: 100%;
+	filter: brightness(75%);
+}
+
+.p1 {
+	background-color: blue;
+}
+
+.p2 {
+	background-color: red;
+}
+
+.p3 {
+	background-color: green;
+}
+
+.p4 {
+	background-color: yellow;
+}
+
+#espace {
+	display: inline;
+}
+
+#espace > #infos {
+	display: inline;
+}
