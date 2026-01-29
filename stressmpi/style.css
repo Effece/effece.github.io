@@ -1,0 +1,78 @@
+/*
+Currently using: https://www.vecteezy.com/vector-art/4584935-abstract-background-with-yellow-orange-gradient-paint-color
+Others:
+https://www.vecteezy.com/vector-art/13150965-orange-background-with-random-triangle-effect
+https://www.vecteezy.com/vector-art/10137138-abstract-gradient-background-orange-geometric-graphics-vector-abstract-background-texture-design
+https://www.vecteezy.com/vector-art/5210247-bright-abstract-background-orange-color
+https://www.vecteezy.com/vector-art/3435330-abstract-orange-background
+https://www.vecteezy.com/vector-art/21523357-abstract-orange-subtle-gradient-background-template
+https://www.vecteezy.com/vector-art/24535066-wavy-orange-background-design-vector-wave-background-abstract-background-vector
+https://www.vecteezy.com/vector-art/1987680-abstract-diagonal-vibrant-yellow-orange-background-technology-concept
+https://www.vecteezy.com/vector-art/35648698-modern-orange-wavy-abstract-background-banner-background
+https://www.vecteezy.com/vector-art/5182597-orange-abstract-background-with-wavy-lines
+*/
+
+body {
+	font-family: "Cust3270", sans-serif;
+	background-image: url("background.png");
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	margin: 0;
+	margin-bottom: 1%;
+	border-radius: 10pt;
+	background-image: url("titre.png");
+}
+
+#infos {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border-radius: 10pt;
+	background-color: orange;
+	opacity: 80%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+td {
+	width: 50%;
+	padding: 1%;
+}
+
+.t0 {
+	font-size: 30px;
+	background-color: white;
+}
+
+.c0 {
+	font-size: 35pt;
+	font-weight: 1000;
+	background-color: yellow;
+}
+
+@font-face {
+	font-family: "CustComfortaa";
+	src: url("Comfortaa-Light.ttf");
+}
+
+@font-face {
+	font-family: "CustOctosquares";
+	src: url("TT Octosquares Trial Expanded Light.ttf");
+}
+
+@font-face {
+	font-family: "CustRicordi";
+	src: url("TT Ricordi Greto Trial Regular.ttf");
+}
+
+@font-face {
+	font-family: "Cust3270";
+	src: url("3270-font-regular-normal.ttf");
+}
