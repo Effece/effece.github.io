@@ -6,7 +6,7 @@ const infos = {
 	},
 	"ecritsXse": {
 		label: "Ecrits en semaines (X/ENS)",
-		func: null,
+		func: countdownw("Apr 13, 2026 08:00:00"),
 		class: ""
 	},
 	"ecritsMines": {
@@ -15,17 +15,17 @@ const infos = {
 		class: "c1"
 	},
 	"fin": {
-		label: "Fin absolue de la prepa",
+		label: "Fin de la prepa",
 		func: countdown("Aug 1, 2026 08:00:00"),
 		class: ""
 	},
 	"pourcentageEcoule": {
-		label: "Année jusqu'aux concours (écrits X/ENS) écoulée",
+		label: "Pourcentage d'avancement",
 		func: pourcentage("Sep 1, 2025 08:00:00", "Apr 13, 2026 08:00:00"),
-		class: ""
+		class: "c1"
 	},
 	"pourcentageTotal": {
-		label: "Prepa écoulée",
+		label: "Pourcentage d'avancement (sup incluse)",
 		func: pourcentage("Sep 1, 2024 10:00:00", "Apr 13, 2026 08:00:00"),
 		class: ""
 	},
@@ -40,32 +40,36 @@ const infos = {
 	},
 	"semainesRestant": {
 		label: "Semaines totales",
-		func: null,
+		func: semscours("Apr 13, 2026 08:00:00"),
 		class: ""
 	},
+	"heures": {
+		titre: "Heures restantes",
+		class: "t1"
+	},
 	"mathsRestant": {
-		label: "Heures de maths",
-		func: null,
+		label: "Maths",
+		func: heures("m", "Apr 13, 2026 08:00:00"),
 		class: ""
 	},
 	"phyRestant": {
-		label: "Heures de physique",
-		func: null,
+		label: "Physique",
+		func: heures("p", "Apr 13, 2026 08:00:00"),
 		class: ""
 	},
 	"infoRestant": {
-		label: "Heures d'informatique",
-		func: null,
+		label: "Informatique",
+		func: heures("i", "Apr 13, 2026 08:00:00"),
 		class: ""
 	},
 	"frRestant": {
-		label: "Heures de français",
-		func: null,
+		label: "Français",
+		func: heures("f", "Apr 13, 2026 08:00:00"),
 		class: ""
 	},
 	"angRestant": {
-		label: "Heures d'anglais",
-		func: null,
+		label: "Anglais",
+		func: heures("a", "Apr 13, 2026 08:00:00"),
 		class: ""
 	},
 	"ds": {
@@ -78,27 +82,27 @@ const infos = {
 		class: ""
 	},
 	"dsMaths": {
-		label: "DS. de maths",
+		label: "Maths",
 		func: null,
 		class: ""
 	},
 	"dsPhy": {
-		label: "DS. de physique",
+		label: "Physique",
 		func: null,
 		class: ""
 	},
 	"dsInfo": {
-		label: "DS. d'informatique",
+		label: "Informatique",
 		func: null,
 		class: ""
 	},
 	"dsFr": {
-		label: "DS. de français",
+		label: "Français",
 		func: null,
 		class: ""
 	},
 	"dsAnglais": {
-		label: "DS. d'anglais",
+		label: "Anglais",
 		func: null,
 		class: ""
 	},
@@ -112,17 +116,17 @@ const infos = {
 		class: ""
 	},
 	"khollesMaths": {
-		label: "Khôlles de maths",
+		label: "Maths",
 		func: null,
 		class: ""
 	},
 	"khollesPhy": {
-		label: "Khôlles de physique",
+		label: "Physique",
 		func: null,
 		class: ""
 	},
 	"khollesAnglais": {
-		label: "Khôlles d'anglais",
+		label: "Anglais",
 		func: null,
 		class: ""
 	},
@@ -132,7 +136,7 @@ const infos = {
 	},
 	"5/2": {
 		label: "Temps avant l'éventuel début de 5/2",
-		func: null,
+		func: countdown("Sep 1, 2026 08:00:00"),
 		class: ""
 	}
 };

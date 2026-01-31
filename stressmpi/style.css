@@ -14,7 +14,7 @@ https://www.vecteezy.com/vector-art/5182597-orange-abstract-background-with-wavy
 
 body {
 	font-family: "Cust3270", sans-serif;
-	background-image: url("background.png");
+	background-image: url("background2.png");
 	border-radius: 20px;
 	font-size: 20px;
 }
@@ -51,10 +51,19 @@ td {
 	background-color: white;
 }
 
+.t1 {
+	font-size: 25px;
+	background-color: palegoldenrod;
+}
+
 .c0 {
 	font-size: 35pt;
 	font-weight: 1000;
 	background-color: yellow;
+}
+
+.c1 {
+	font-size: 28px;
 }
 
 @font-face {
