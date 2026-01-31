@@ -10,7 +10,7 @@ const infos = {
 		class: ""
 	},
 	"ecritsMines": {
-		label: "Ecrits (Mines-Pont)",
+		label: "Ecrits (Mines-Ponts)",
 		func: countdown("Apr 27, 2026 08:00:00"),
 		class: "c1"
 	},
@@ -139,4 +139,5 @@ const infos = {
 		func: countdown("Sep 1, 2026 08:00:00"),
 		class: ""
 	}
+
 };
